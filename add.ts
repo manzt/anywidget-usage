@@ -99,12 +99,12 @@ let entry = {
 	data.push(entry);
 	await Deno.writeTextFile(
 		"data.json",
-		JSON.stringify(data, null, "\t") + "\r\n",
+		JSON.stringify(data, null, "\t") + "\n",
 	);
 }
 
 {
 	let data = Deno.readTextFileSync(exclude_file).split("\n").filter(Boolean);
-	data.push(repo as string);
-	Deno.writeTextFileSync(exclude_file, data.join("\n") + "\r\n");
+	data.push(info.repo);
+	Deno.writeTextFileSync(exclude_file, data.join("\n") + "\n");
 }

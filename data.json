@@ -1101,5 +1101,15 @@
 		"use_anywidget": true,
 		"repo_created": "2020-09-10",
 		"kind": "framework"
+	},
+	{
+		"repo": "IKKEM-Lin/jupyter-antd",
+		"url": "https://github.com/IKKEM-Lin/jupyter-antd",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The antd UI for jupyter notebook base on anywidgets",
+		"use_anywidget": true,
+		"repo_created": "2023-10-13",
+		"kind": "widget"
 	}
 ]
