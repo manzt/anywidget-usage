@@ -38,6 +38,8 @@ function maybe_exit<T>(x: T | symbol): T {
 
 if (import.meta.main) {
 	p.intro("Add a new widget project");
+	let repo_path = new URL("assets/repos.json", import.meta.url);
+	let repos = await Deno.readTextFile(repo_path).then(JSON.parse);
 
 	let repo = await p.text({
 		message: "Repository",
@@ -45,6 +47,13 @@ if (import.meta.main) {
 		placeholder: "user/repo",
 	});
 	maybe_exit(repo);
+
+	if (repos.some((r: any) => r.repo === repo)) {
+		p.cancel("Repo already exists");
+		console.log(repos.find((r: any) => r.repo === repo));
+		Deno.exit(1);
+	}
+
 	let uses_anywidget = await p.confirm({ message: "Uses anywidget?" });
 	maybe_exit(uses_anywidget);
 	let hidive = await p.confirm({ message: "HIDIVE?", initialValue: false });
@@ -106,12 +115,8 @@ if (import.meta.main) {
 			await Deno.writeTextFile(url, JSON.stringify(data, null, "\t") + "\n");
 		}
 
-		{
-			let url = new URL(exclude_file, import.meta.url);
-			let data = Deno.readTextFileSync(url).split("\n").filter(Boolean);
-			data.push(info.repo);
-			Deno.writeTextFileSync(url, data.join("\n") + "\n");
-		}
+		repos.push(info.repo);
+		Deno.writeTextFileSync(repo_path, repos.join("\n") + "\n");
 	}
 
 	p.outro("Done");
