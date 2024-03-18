@@ -13,6 +13,6 @@ for (let item of partial_repos) {
 }
 
 await Deno.writeTextFile(
-	new URL("repos.json", import.meta.url),
+	new URL("assets/repos-complete.json", import.meta.url),
 	JSON.stringify(results, null, "\t"),
 );
