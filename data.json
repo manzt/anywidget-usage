@@ -1151,5 +1151,25 @@
 		"use_anywidget": true,
 		"repo_created": "2022-12-23",
 		"kind": "widget"
+	},
+	{
+		"repo": "manzt/ipymario",
+		"url": "https://github.com/manzt/ipymario",
+		"hidive": true,
+		"widget_created": null,
+		"description": "A simple anywidget, built from Mike Bostock's Mario chime snippet.",
+		"use_anywidget": true,
+		"repo_created": "2024-03-12",
+		"kind": "widget"
+	},
+	{
+		"repo": "manzt/carbonplan-maps",
+		"url": "https://github.com/manzt/carbonplan-maps",
+		"hidive": true,
+		"widget_created": null,
+		"description": "A Jupyter Widget for @carbonplan/maps. Built with anywidget.",
+		"use_anywidget": true,
+		"repo_created": "2023-07-14",
+		"kind": "widget"
 	}
 ]
