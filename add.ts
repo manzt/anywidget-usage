@@ -95,10 +95,10 @@ let entry = {
 };
 
 {
-	let data = await Deno.readTextFile("data.json").then(JSON.parse);
+	let data = await Deno.readTextFile("repos.json").then(JSON.parse);
 	data.push(entry);
 	await Deno.writeTextFile(
-		"data.json",
+		"repos.json",
 		JSON.stringify(data, null, "\t") + "\n",
 	);
 }
