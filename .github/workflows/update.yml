@@ -17,7 +17,7 @@ jobs:
         with:
           deno-version: v1.x
       - run: |
-        deno run -A search.ts > file.md
-        gh issue edit 4 -F file.md
+          deno run -A search.ts > file.md
+          gh issue edit 4 -F file.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
