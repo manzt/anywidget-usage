@@ -88,7 +88,7 @@ if (import.meta.main) {
 		hidive: hidive,
 		widget_created: widget_created === "null" ? null : widget_created,
 		description: description,
-		use_anywidget: uses_anywidget,
+		uses_anywidget: uses_anywidget,
 		repo_created: info.repo_created,
 		kind: kind,
 	};

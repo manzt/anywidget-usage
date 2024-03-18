@@ -1058,7 +1058,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "A reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2023-08-14",
 		"kind": "framework"
 	},
@@ -1068,7 +1068,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "A Pure Python, React-style Framework for Scaling Your Jupyter and Web Apps",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2022-03-09",
 		"kind": "framework"
 	},
@@ -1078,7 +1078,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Render ipywidgets inside a PyShiny app",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2021-12-02",
 		"kind": "framework"
 	},
@@ -1088,7 +1088,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Panel: The powerful data exploration & web app framework for Python",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2018-08-23",
 		"kind": "framework"
 	},
@@ -1098,7 +1098,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "VS Code Jupyter extension",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2020-09-10",
 		"kind": "framework"
 	},
@@ -1108,7 +1108,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "The antd UI for jupyter notebook base on anywidgets",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2023-10-13",
 		"kind": "widget"
 	},
@@ -1118,7 +1118,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Integrates fomily to jupyter notebook, which base on anywidget",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2023-10-19",
 		"kind": "widget"
 	},
@@ -1128,7 +1128,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "CoSo is a lifted solver for combinatorics problems expressed in CoLa.",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2020-09-14",
 		"kind": "widget"
 	},
@@ -1138,7 +1138,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Python bindings for the egg-smol rust library",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2022-11-02",
 		"kind": "widget"
 	},
@@ -1148,7 +1148,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Binder to the cosmograph visual analytics for big graphs",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2022-12-23",
 		"kind": "widget"
 	},
@@ -1158,7 +1158,7 @@
 		"hidive": true,
 		"widget_created": null,
 		"description": "A simple anywidget, built from Mike Bostock's Mario chime snippet.",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2024-03-12",
 		"kind": "widget"
 	},
@@ -1168,7 +1168,7 @@
 		"hidive": true,
 		"widget_created": null,
 		"description": "A Jupyter Widget for @carbonplan/maps. Built with anywidget.",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2023-07-14",
 		"kind": "widget"
 	},
@@ -1178,7 +1178,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Babysitting LLMs for Visualization",
-		"use_anywidget": true,
+		"uses_anywidget": true,
 		"repo_created": "2024-03-07",
 		"kind": "widget"
 	},
@@ -1188,7 +1188,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Programmatically generate SVG (vector) images, animations, and interactive Jupyter widgets",
-		"use_anywidget": false,
+		"uses_anywidget": false,
 		"repo_created": "2017-12-27",
 		"kind": "widget"
 	},
@@ -1198,7 +1198,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "The On-Ramp to Deep Learning",
-		"use_anywidget": false,
+		"uses_anywidget": false,
 		"repo_created": "2016-07-10",
 		"kind": "widget"
 	}
