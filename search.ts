@@ -58,7 +58,7 @@ if (Deno.args[0] === "anywidget") {
 } else if (Deno.args[0] === "ipywidgets") {
 	query =
 		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:python -path:/venv -path:/.venv -filename:domwidget.py";
-	exclude_file = "exclude_repos_anywidget.txt";
+	exclude_file = "exclude_repos_ipywidgets.txt";
 } else {
 	console.error("Invalid argument");
 	Deno.exit(1); // EXIT_FAILURE
