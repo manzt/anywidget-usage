@@ -58,3 +58,4 @@ marimo-team/marimo
 widgetti/solara
 posit-dev/py-shinywidgets
 holoviz/panel
+microsoft/vscode-jupyter

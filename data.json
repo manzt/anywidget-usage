@@ -1091,5 +1091,15 @@
 		"use_anywidget": true,
 		"repo_created": "2018-08-23",
 		"kind": "framework"
+	},
+	{
+		"repo": "microsoft/vscode-jupyter",
+		"url": "https://github.com/microsoft/vscode-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "VS Code Jupyter extension",
+		"use_anywidget": true,
+		"repo_created": "2020-09-10",
+		"kind": "framework"
 	}
 ]
