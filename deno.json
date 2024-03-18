@@ -5,6 +5,7 @@
 	},
 	"tasks": {
 		"add": "GITHUB_TOKEN=$(gh auth token) deno run -A add.ts",
+		"search": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts",
 		"search-anywidget": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts anywidget",
 		"search-ipywidgets": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts ipywidgets"
 	},

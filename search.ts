@@ -1,11 +1,19 @@
 let wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-async function code_search(
-	query: string,
-	{ token, exclude_repos }: { token: string; exclude_repos: string[] },
-) {
+async function code_search(q: Query) {
+	let token = Deno.env.get("GITHUB_TOKEN");
+	if (!token) {
+		throw new Error("GITHUB_TOKEN is not set");
+	}
+
+	let exclude_repos: string[] = [];
+	if (q.exclude_file) {
+		let text = await Deno.readTextFile(q.exclude_file);
+		exclude_repos = text.split("\n").filter(Boolean);
+	}
+
 	let url = new URL("https://api.github.com/search/code");
-	url.searchParams.set("q", query);
+	url.searchParams.set("q", q.query);
 	url.searchParams.set("per_page", "100");
 
 	let headers = new Headers();
@@ -40,7 +48,7 @@ async function code_search(
 	let results = Object.values(groups).map((d) => d?.at(0)!);
 	let exclude_set = new Set(exclude_repos);
 
-	console.log("## Results");
+	console.log(`## ${q.title}`);
 	for (let item of results) {
 		if (exclude_set.has(item.repo)) {
 			continue;
@@ -49,24 +57,32 @@ async function code_search(
 	}
 }
 
-let query: string;
-let exclude_file: string;
+type Query = {
+	title: string;
+	query: string;
+	exclude_file: URL;
+};
+
+let anywidget: Query = {
+	title: "anywidget",
+	query:
+		"anywidget.AnyWidget -repo:manzt/anywidget language:python -path:/venv -path:/.venv -filename:jupyter_chart.py -filename:test_ipywidget.py",
+	exclude_file: new URL("exclude_repos_anywidget.txt", import.meta.url),
+};
+let ipywidgets: Query = {
+	title: "ipywidgets",
+	query:
+		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:python -path:/venv -path:/.venv -filename:domwidget.py",
+	exclude_file: new URL("exclude_repos_ipywidgets.txt", import.meta.url),
+};
+
 if (Deno.args[0] === "anywidget") {
-	query =
-		"anywidget.AnyWidget -repo:manzt/anywidget language:python -path:/venv -path:/.venv -filename:jupyter_chart.py -filename:test_ipywidget.py";
-	exclude_file = "exclude_repos_anywidget.txt";
+	await code_search(anywidget);
 } else if (Deno.args[0] === "ipywidgets") {
-	query =
-		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:python -path:/venv -path:/.venv -filename:domwidget.py";
-	exclude_file = "exclude_repos_ipywidgets.txt";
+	await code_search(ipywidgets);
 } else {
-	console.error("Invalid argument");
-	Deno.exit(1); // EXIT_FAILURE
+	await code_search(anywidget);
+	console.log("\n\n");
+	await code_search(ipywidgets);
 }
 
-code_search(query, {
-	token: Deno.env.get("GITHUB_TOKEN")!,
-	exclude_repos: Deno.readTextFileSync(exclude_file)
-		.split("\n")
-		.filter(Boolean),
-});

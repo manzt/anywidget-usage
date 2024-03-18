@@ -1,0 +1,21 @@
+name: Update repos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/${{ github.repository }}/issues
+          title: 'Daily Update for ${date}'
+          body: 'This is the automated daily update for ${date}.'
+          state: 'open'
+          issue_number: '3'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
