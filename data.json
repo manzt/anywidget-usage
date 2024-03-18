@@ -1111,5 +1111,15 @@
 		"use_anywidget": true,
 		"repo_created": "2023-10-13",
 		"kind": "widget"
+	},
+	{
+		"repo": "IKKEM-Lin/jupyter-formily",
+		"url": "https://github.com/IKKEM-Lin/jupyter-formily",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Integrates fomily to jupyter notebook, which base on anywidget",
+		"use_anywidget": true,
+		"repo_created": "2023-10-19",
+		"kind": "widget"
 	}
 ]
