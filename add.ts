@@ -105,6 +105,6 @@ let entry = {
 
 {
 	let data = Deno.readTextFileSync(exclude_file).split("\n").filter(Boolean);
-	data.push(info.repo);
+	data.push(repo as string);
 	Deno.writeTextFileSync(exclude_file, data.join("\n") + "\r\n");
 }
