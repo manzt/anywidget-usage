@@ -54,3 +54,4 @@ kolibril13/anywidget-pastecode
 kolibril13/ipyexcalidraw
 kolibril13/ipykonva
 kolibril13/ipyreactflow
+marimo-team/marimo

@@ -1051,5 +1051,15 @@
 		"description": "Interactive audio in Jupyter",
 		"uses_anywidget": false,
 		"repo_created": "2020-05-25"
+	},
+	{
+		"repo": "marimo-team/marimo",
+		"url": "https://github.com/marimo-team/marimo",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.",
+		"use_anywidget": true,
+		"repo_created": "2023-08-14",
+		"kind": "framework"
 	}
 ]
