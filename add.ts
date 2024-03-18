@@ -42,26 +42,25 @@ if (import.meta.main) {
 	let repo = await p.text({
 		message: "Repository",
 		initialValue: Deno.args[0],
+		placeholder: "user/repo",
 	});
 	maybe_exit(repo);
-	let uses_anywidget = await p.confirm({ message: "Use anywidget?" });
+	let uses_anywidget = await p.confirm({ message: "Uses anywidget?" });
 	maybe_exit(uses_anywidget);
 	let hidive = await p.confirm({ message: "HIDIVE?", initialValue: false });
 	maybe_exit(hidive);
-	let s = p.spinner();
-	s.start("Fetching repository info");
 	let info = await fetch_repo_info(repo as string);
-	s.stop();
 	let description = await p.text({
 		message: "Description",
 		initialValue: info.description,
+		placeholder: "Type a description",
 	});
 	maybe_exit(description);
 	let widget_created = await p.text({
 		message: "Widget Created",
-		initialValue: "null",
+		placeholder: "YYYY-MM-DD (if different from repo created)",
 		validate(value) {
-			if (value === "null") return;
+			if (value === "") return;
 			if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) {
 				return "Must be a date in the format YYYY-MM-DD";
 			}
@@ -89,24 +88,31 @@ if (import.meta.main) {
 		repo: info.repo,
 		url: `https://github.com/${info.repo}`,
 		hidive: hidive,
-		widget_created: widget_created === "null" ? null : widget_created,
+		widget_created: widget_created === "" ? null : widget_created,
 		description: description,
 		uses_anywidget: uses_anywidget,
 		repo_created: info.repo_created,
-		kind: kind,
+		kind,
 	};
 
-	{
-		let url = new URL("assets/repos.json", import.meta.url);
-		let data = await Deno.readTextFile(url).then(JSON.parse);
-		data.push(entry);
-		await Deno.writeTextFile(url, JSON.stringify(data, null, "\t") + "\n");
+	console.log(entry);
+	let go = await p.confirm({ message: "Add this entry?" });
+	maybe_exit(go);
+	if (go) {
+		{
+			let url = new URL("assets/repos.json", import.meta.url);
+			let data = await Deno.readTextFile(url).then(JSON.parse);
+			data.push(entry);
+			await Deno.writeTextFile(url, JSON.stringify(data, null, "\t") + "\n");
+		}
+
+		{
+			let url = new URL(exclude_file, import.meta.url);
+			let data = Deno.readTextFileSync(url).split("\n").filter(Boolean);
+			data.push(info.repo);
+			Deno.writeTextFileSync(url, data.join("\n") + "\n");
+		}
 	}
 
-	{
-		let url = new URL(exclude_file, import.meta.url);
-		let data = Deno.readTextFileSync(url).split("\n").filter(Boolean);
-		data.push(info.repo);
-		Deno.writeTextFileSync(url, data.join("\n") + "\n");
-	}
+	p.outro("Done");
 }
