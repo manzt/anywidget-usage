@@ -9,7 +9,10 @@ let results = [];
 for (let item of partial_repos) {
 	let info = await fetch_repo_info(item.repo);
 	results.push({ ...info, ...item });
-	await wait(1000);
+	await wait(300);
 }
 
-console.log(results);
+await Deno.writeTextFile(
+	new URL("repos.json", import.meta.url),
+	JSON.stringify(results, null, "\t"),
+);
