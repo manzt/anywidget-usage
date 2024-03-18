@@ -75,7 +75,6 @@ let add_to_ignore = await p.confirm({
 });
 maybe_exit(add_to_ignore);
 
-
 let entry = {
 	repo: info.repo,
 	url: `https://github.com/${info.repo}`,
@@ -87,14 +86,16 @@ let entry = {
 };
 
 {
-
 	let data = await Deno.readTextFile("data.json").then(JSON.parse);
 	data.push(entry);
-	await Deno.writeTextFile("data.json", JSON.stringify(data, null, "\t"));
+	await Deno.writeTextFile(
+		"data.json",
+		JSON.stringify(data, null, "\t") + "\r\n",
+	);
 }
 
 {
 	let data = Deno.readTextFileSync(exclude_file).split("\n").filter(Boolean);
 	data.push(info.repo);
-	Deno.writeTextFileSync(exclude_file, data.join("\n"));
+	Deno.writeTextFileSync(exclude_file, data.join("\n") + "\r\n");
 }
