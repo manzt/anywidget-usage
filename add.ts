@@ -41,7 +41,7 @@ let repo = await p.text({ message: "Repository" });
 maybe_exit(repo);
 let uses_anywidget = await p.confirm({ message: "Use anywidget?" });
 maybe_exit(uses_anywidget);
-let hidive = await p.confirm({ message: "Hidive?" });
+let hidive = await p.confirm({ message: "Hidive?", initialValue: false });
 maybe_exit(hidive);
 let s = p.spinner();
 s.start("Fetching repository info");
@@ -63,6 +63,14 @@ let widget_created = await p.text({
 	},
 });
 maybe_exit(widget_created);
+let kind = await p.select({
+	message: "Integration kind",
+	options: [
+		{ value: "widget", label: "Widget" },
+		{ value: "framework", label: "Framework" },
+	],
+});
+maybe_exit(kind);
 
 let exclude_file = new URL(
 	uses_anywidget
@@ -83,6 +91,7 @@ let entry = {
 	description: description,
 	use_anywidget: uses_anywidget,
 	repo_created: info.repo_created,
+	kind: kind,
 };
 
 {
