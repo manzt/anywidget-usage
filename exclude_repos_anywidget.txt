@@ -61,3 +61,5 @@ holoviz/panel
 microsoft/vscode-jupyter
 IKKEM-Lin/jupyter-antd
 IKKEM-Lin/jupyter-formily
+PietroTotis/CoSo
+egraphs-good/egglog-python
