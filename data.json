@@ -1141,5 +1141,15 @@
 		"use_anywidget": true,
 		"repo_created": "2022-11-02",
 		"kind": "widget"
+	},
+	{
+		"repo": "cosmograph-org/py_cosmograph",
+		"url": "https://github.com/cosmograph-org/py_cosmograph",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Binder to the cosmograph visual analytics for big graphs",
+		"use_anywidget": true,
+		"repo_created": "2022-12-23",
+		"kind": "widget"
 	}
 ]
