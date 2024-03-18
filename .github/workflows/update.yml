@@ -5,18 +5,19 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  issues: write
+
 jobs:
   update_issue:
-    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: octokit/request-action@v2.x
+      - uses: denoland/setup-deno@v1
         with:
-          route: POST /repos/${{ github.repository }}/issues
-          title: 'Daily Update for ${date}'
-          body: 'This is the automated daily update for ${date}.'
-          state: 'open'
-          issue_number: '3'
+          deno-version: v1.x
+      - run: |
+        deno run -A search.ts > file.md
+        gh issue edit 4 -F file.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
