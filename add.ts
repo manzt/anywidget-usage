@@ -39,11 +39,14 @@ function maybe_exit<T>(x: T | symbol): T {
 if (import.meta.main) {
 	p.intro("Add a new widget project");
 
-	let repo = await p.text({ message: "Repository" });
+	let repo = await p.text({
+		message: "Repository",
+		initialValue: Deno.args[0],
+	});
 	maybe_exit(repo);
 	let uses_anywidget = await p.confirm({ message: "Use anywidget?" });
 	maybe_exit(uses_anywidget);
-	let hidive = await p.confirm({ message: "Hidive?", initialValue: false });
+	let hidive = await p.confirm({ message: "HIDIVE?", initialValue: false });
 	maybe_exit(hidive);
 	let s = p.spinner();
 	s.start("Fetching repository info");
