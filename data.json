@@ -1061,5 +1061,25 @@
 		"use_anywidget": true,
 		"repo_created": "2023-08-14",
 		"kind": "framework"
+	},
+	{
+		"repo": "widgetti/solara",
+		"url": "https://github.com/widgetti/solara",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Pure Python, React-style Framework for Scaling Your Jupyter and Web Apps",
+		"use_anywidget": true,
+		"repo_created": "2022-03-09",
+		"kind": "framework"
+	},
+	{
+		"repo": "posit-dev/py-shinywidgets",
+		"url": "https://github.com/posit-dev/py-shinywidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Render ipywidgets inside a PyShiny app",
+		"use_anywidget": true,
+		"repo_created": "2021-12-02",
+		"kind": "framework"
 	}
 ]
