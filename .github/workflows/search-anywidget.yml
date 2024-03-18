@@ -1,0 +1,19 @@
+name: Search anywidget
+
+on:
+  workflow_dispatch:
+
+jobs:
+  search-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          exclude_repos=$(cat exclude_repos_anywidget.txt | sed 's/^/-repo:/;s/$/ /' | tr -d '\n')
+          query="anywidget.AnyWidget $exclude_repos"
+          echo "query=$query" >> $GITHUB_OUTPUT
+      - run: |
+          results=$(gh api "search/code?q=$(echo $query)" | jq -r '.items | map({ path, "repo": .repository["full_name"] })')
+          echo "$results"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
