@@ -84,5 +84,6 @@ if (Deno.args[0] === "anywidget") {
 	await code_search(anywidget);
 	console.log("\n");
 	await code_search(ipywidgets);
+	console.log("\n");
+	console.log(`updated: ${new Date().toISOString()}`);
 }
-
