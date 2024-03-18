@@ -67,13 +67,13 @@ let anywidget: Query = {
 	title: "anywidget",
 	query:
 		"anywidget.AnyWidget -repo:manzt/anywidget language:python -path:/venv -path:/.venv -filename:jupyter_chart.py -filename:test_ipywidget.py",
-	exclude_file: new URL("exclude_repos_anywidget.txt", import.meta.url),
+	exclude_file: new URL("assets/exclude_repos_anywidget.txt", import.meta.url),
 };
 let ipywidgets: Query = {
 	title: "ipywidgets",
 	query:
 		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:python -path:/venv -path:/.venv -filename:domwidget.py",
-	exclude_file: new URL("exclude_repos_ipywidgets.txt", import.meta.url),
+	exclude_file: new URL("assets/exclude_repos_ipywidgets.txt", import.meta.url),
 };
 
 if (Deno.args[0] === "anywidget") {
@@ -82,7 +82,7 @@ if (Deno.args[0] === "anywidget") {
 	await code_search(ipywidgets);
 } else {
 	await code_search(anywidget);
-	console.log("\n\n");
+	console.log("\n");
 	await code_search(ipywidgets);
 }
 

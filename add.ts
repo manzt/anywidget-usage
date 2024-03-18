@@ -72,12 +72,9 @@ let kind = await p.select({
 });
 maybe_exit(kind);
 
-let exclude_file = new URL(
-	uses_anywidget
-		? "exclude_repos_anywidget.txt"
-		: "exclude_repos_ipywidgets.txt",
-	import.meta.url,
-);
+let exclude_file = uses_anywidget
+	? "assets/exclude_repos_anywidget.txt"
+	: "assets/exclude_repos_ipywidgets.txt";
 let add_to_ignore = await p.confirm({
 	message: `Add repo to exclude file: ${exclude_file}?`,
 });
@@ -95,16 +92,15 @@ let entry = {
 };
 
 {
-	let data = await Deno.readTextFile("repos.json").then(JSON.parse);
+	let url = new URL("assets/repos.json", import.meta.url);
+	let data = await Deno.readTextFile(url).then(JSON.parse);
 	data.push(entry);
-	await Deno.writeTextFile(
-		"repos.json",
-		JSON.stringify(data, null, "\t") + "\n",
-	);
+	await Deno.writeTextFile(url, JSON.stringify(data, null, "\t") + "\n");
 }
 
 {
-	let data = Deno.readTextFileSync(exclude_file).split("\n").filter(Boolean);
+	let url = new URL(exclude_file, import.meta.url);
+	let data = Deno.readTextFileSync(url).split("\n").filter(Boolean);
 	data.push(info.repo);
-	Deno.writeTextFileSync(exclude_file, data.join("\n") + "\n");
+	Deno.writeTextFileSync(url, data.join("\n") + "\n");
 }
