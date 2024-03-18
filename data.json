@@ -1181,5 +1181,25 @@
 		"use_anywidget": true,
 		"repo_created": "2024-03-07",
 		"kind": "widget"
+	},
+	{
+		"repo": "cduck/drawsvg",
+		"url": "https://github.com/cduck/drawsvg",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Programmatically generate SVG (vector) images, animations, and interactive Jupyter widgets",
+		"use_anywidget": false,
+		"repo_created": "2017-12-27",
+		"kind": "widget"
+	},
+	{
+		"repo": "ArtificialIntelligenceToolkit/conx",
+		"url": "https://github.com/ArtificialIntelligenceToolkit/conx",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The On-Ramp to Deep Learning",
+		"use_anywidget": false,
+		"repo_created": "2016-07-10",
+		"kind": "widget"
 	}
 ]

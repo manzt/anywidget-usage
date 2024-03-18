@@ -74,3 +74,12 @@ codeaudit/conx
 vidartf/K3D-jupyter
 bollwyvl/widget-dateslider
 geigr/ipytone
+cduck/drawsvg
+ArtificialIntelligenceToolkit/conx
+clasp-developers/widget-dev
+StranikS-Scan/WorldOfTanks-Decompiled
+Calysto/calysto
+james20141606/somethingmore
+dinorows/conx2
+Armagomen/wot_decompiled
+Kostya12rus/create_wot_emmet
