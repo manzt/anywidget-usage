@@ -1,0 +1,1055 @@
+[
+	{
+		"repo": "altair-viz/altair",
+		"url": "https://github.com/altair-viz/altair",
+		"hidive": false,
+		"widget_created": "2023-08-02",
+		"description": "Declarative statistical visualization library for Python",
+		"uses_anywidget": true,
+		"repo_created": "2015-09-19"
+	},
+	{
+		"repo": "koaning/drawdata",
+		"url": "https://github.com/koaning/drawdata",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Draw datasets from within Jupyter.",
+		"uses_anywidget": true,
+		"repo_created": "2021-04-04"
+	},
+	{
+		"repo": "uwdata/mosaic",
+		"url": "https://github.com/uwdata/mosaic",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An extensible framework for linking databases and interactive views.",
+		"uses_anywidget": true,
+		"repo_created": "2022-12-08"
+	},
+	{
+		"repo": "manzt/anywidget",
+		"url": "https://github.com/manzt/anywidget",
+		"hidive": true,
+		"widget_created": null,
+		"description": "jupyter widgets made easy",
+		"uses_anywidget": true,
+		"repo_created": "2022-10-26"
+	},
+	{
+		"repo": "flekschas/jupyter-scatter",
+		"url": "https://github.com/flekschas/jupyter-scatter",
+		"hidive": true,
+		"widget_created": null,
+		"description": "Interactive 2D scatter plot widget for Jupyter Lab and Notebook. Scales to millions of points!",
+		"uses_anywidget": true,
+		"repo_created": "2020-06-01"
+	},
+	{
+		"repo": "developmentseed/lonboard",
+		"url": "https://github.com/developmentseed/lonboard",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Python library for fast, interactive geospatial vector data visualization in Jupyter.",
+		"uses_anywidget": true,
+		"repo_created": "2023-08-31"
+	},
+	{
+		"repo": "microsoft/qsharp     ",
+		"url": "https://github.com/microsoft/qsharp     ",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Azure Quantum Development Kit",
+		"uses_anywidget": true,
+		"repo_created": "2023-01-26"
+	},
+	{
+		"repo": "opengeos/mapwidget",
+		"url": "https://github.com/opengeos/mapwidget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Custom Jupyter widgets for creating interactive 2D/3D maps using popular JavaScript libraries with bidirectional communication, such as Cesium, Mapbox, MapLibre, Leaflet, and OpenLayers",
+		"uses_anywidget": true,
+		"repo_created": "2023-01-21"
+	},
+	{
+		"repo": "kolibril13/jupyter-tldraw ",
+		"url": "https://github.com/kolibril13/jupyter-tldraw ",
+		"hidive": false,
+		"widget_created": null,
+		"description": "the very good free whiteboard tldraw in the jupyter output",
+		"uses_anywidget": true,
+		"repo_created": "2023-03-09"
+	},
+	{
+		"repo": "juba/pyobsplot",
+		"url": "https://github.com/juba/pyobsplot",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Observable Plot in Jupyter notebooks and Quarto documents",
+		"uses_anywidget": true,
+		"repo_created": "2023-03-29"
+	},
+	{
+		"repo": "hms-dbmi/vizarr",
+		"url": "https://github.com/hms-dbmi/vizarr",
+		"hidive": true,
+		"widget_created": "2023-10-19",
+		"description": "A minimal, purely client-side program for viewing Zarr-based images with Viv & ImJoy.",
+		"uses_anywidget": true,
+		"repo_created": "2020-06-26"
+	},
+	{
+		"repo": "widgetti/ipyreact",
+		"url": "https://github.com/widgetti/ipyreact",
+		"hidive": false,
+		"widget_created": null,
+		"description": "React for ipywidgets that just works. No webpack, no npm, no hassle",
+		"uses_anywidget": true,
+		"repo_created": "2023-04-20"
+	},
+	{
+		"repo": "reactive-python/reactpy-jupyter",
+		"url": "https://github.com/reactive-python/reactpy-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "It's React, but in Jupyter",
+		"uses_anywidget": true,
+		"repo_created": "2020-09-11"
+	},
+	{
+		"repo": "higlass/higlass-python",
+		"url": "https://github.com/higlass/higlass-python",
+		"hidive": true,
+		"widget_created": null,
+		"description": "Python bindings to and Jupyter Notebook+Lab integration for the HiGlass viewer",
+		"uses_anywidget": true,
+		"repo_created": "2018-11-15"
+	},
+	{
+		"repo": "OzetteTech/comparative-embedding-visualization",
+		"url": "https://github.com/OzetteTech/comparative-embedding-visualization",
+		"hidive": true,
+		"widget_created": null,
+		"description": "A Jupyter widget for comparing two embeddings with shared labels by their confusion, neighborhoods, and size.",
+		"uses_anywidget": true,
+		"repo_created": "2022-10-03"
+	},
+	{
+		"repo": "vitessce/vitessce-python",
+		"url": "https://github.com/vitessce/vitessce-python",
+		"hidive": true,
+		"widget_created": null,
+		"description": "Python API and Jupyter widget for Vitessce",
+		"uses_anywidget": true,
+		"repo_created": "2020-09-01"
+	},
+	{
+		"repo": "visdesignlab/persist",
+		"url": "https://github.com/visdesignlab/persist",
+		"hidive": false,
+		"widget_created": null,
+		"description": "PersIst is a JupyterLab extension to enable persistent interactive visualizations in JupyterLab notebooks.",
+		"uses_anywidget": true,
+		"repo_created": "2023-01-11"
+	},
+	{
+		"repo": "lakeraai/canica",
+		"url": "https://github.com/lakeraai/canica",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A text embedding viewer for the Jupyter environment",
+		"uses_anywidget": true,
+		"repo_created": "2023-10-30"
+	},
+	{
+		"repo": "asaboor-gh/ipyslides",
+		"url": "https://github.com/asaboor-gh/ipyslides",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Create Interactive Slides in Jupyter Notebook with all kind of rich content.  https://asaboor-gh.github.io/ipyslides/",
+		"uses_anywidget": true,
+		"repo_created": "2021-08-01"
+	},
+	{
+		"repo": "superstar54/weas-widget",
+		"url": "https://github.com/superstar54/weas-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A widget to visualize and interact with atomistic structures in Jupyter Notebook",
+		"uses_anywidget": true,
+		"repo_created": "2024-01-22"
+	},
+	{
+		"repo": "geigr/ipymidi",
+		"url": "https://github.com/geigr/ipymidi",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive MIDI in Jupyter",
+		"uses_anywidget": true,
+		"repo_created": "2023-12-12"
+	},
+	{
+		"repo": "davidbrochart/ipytextual",
+		"url": "https://github.com/davidbrochart/ipytextual",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Textual-based Widget",
+		"uses_anywidget": true,
+		"repo_created": "2023-11-23"
+	},
+	{
+		"repo": "benbovy/xarray-fancy-repr",
+		"url": "https://github.com/benbovy/xarray-fancy-repr",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Fancy reprs for Xarray objects in Jupyter notebooks (experimental)",
+		"uses_anywidget": true,
+		"repo_created": "2023-09-12"
+	},
+	{
+		"repo": "davidbrochart/ipyscore",
+		"url": "https://github.com/davidbrochart/ipyscore",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget for music notation",
+		"uses_anywidget": true,
+		"repo_created": "2023-08-10"
+	},
+	{
+		"repo": "jtpio/ipyclipboard",
+		"url": "https://github.com/jtpio/ipyclipboard",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A simple Jupyter Widget to read and write text from the clipboard.",
+		"uses_anywidget": true,
+		"repo_created": "2024-02-22"
+	},
+	{
+		"repo": "eodaGmbH/py-maplibregl",
+		"url": "https://github.com/eodaGmbH/py-maplibregl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Python bindings for MapLibre GL JS",
+		"uses_anywidget": true,
+		"repo_created": "2023-12-21"
+	},
+	{
+		"repo": "kolibril13/ipymafs",
+		"url": "https://github.com/kolibril13/ipymafs",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive math react components in jupyter",
+		"uses_anywidget": true,
+		"repo_created": "2023-04-30"
+	},
+	{
+		"repo": "niivue/ipyniivue",
+		"url": "https://github.com/niivue/ipyniivue",
+		"hidive": false,
+		"widget_created": "2024-03-15",
+		"description": "A Jupyter Widget for Niivue based on anywidget.",
+		"uses_anywidget": true,
+		"repo_created": "2024-01-23"
+	},
+	{
+		"repo": "seidlr/ipyreactplayer",
+		"url": "https://github.com/seidlr/ipyreactplayer",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An interactive videoplayer as Ipywidget.",
+		"uses_anywidget": true,
+		"repo_created": "2023-10-21"
+	},
+	{
+		"repo": "manzt/ipytweakpane",
+		"url": "https://github.com/manzt/ipytweakpane",
+		"hidive": false,
+		"widget_created": null,
+		"description": "IPython/Jupyter notebooks module for Tweakpane UI.",
+		"uses_anywidget": true,
+		"repo_created": "2022-10-29"
+	},
+	{
+		"repo": "ozekik/ipydeck",
+		"url": "https://github.com/ozekik/ipydeck",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Yet another Jupyter widget for deck.gl",
+		"uses_anywidget": true,
+		"repo_created": "2023-12-02"
+	},
+	{
+		"repo": "Jhsmit/ipymolstar",
+		"url": "https://github.com/Jhsmit/ipymolstar",
+		"hidive": false,
+		"widget_created": null,
+		"description": "PDBeMolstar as anywidget",
+		"uses_anywidget": true,
+		"repo_created": "2024-02-14"
+	},
+	{
+		"repo": "StarostinV/bactovision",
+		"url": "https://github.com/StarostinV/bactovision",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A jupyter widget for processing bacterial growth images",
+		"uses_anywidget": true,
+		"repo_created": "2024-02-12"
+	},
+	{
+		"repo": "cosmograph-org/cosmograph_widget",
+		"url": "https://github.com/cosmograph-org/cosmograph_widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A python widget talking to cosmograph JS tool",
+		"uses_anywidget": true,
+		"repo_created": "2024-02-10"
+	},
+	{
+		"repo": "juba/pylifemap",
+		"url": "https://github.com/juba/pylifemap",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Python package for Lifemap visualizations",
+		"uses_anywidget": true,
+		"repo_created": "2023-12-20"
+	},
+	{
+		"repo": "superstar54/qeapp-xps",
+		"url": "https://github.com/superstar54/qeapp-xps",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A plugin for calculating X-ray Photoelectron Spectroscopy (XPS) spectra.",
+		"uses_anywidget": true,
+		"repo_created": "2024-01-30"
+	},
+	{
+		"repo": "venkatesh-sivaraman/slice-finding",
+		"url": "https://github.com/venkatesh-sivaraman/slice-finding",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": true,
+		"repo_created": "2023-01-25"
+	},
+	{
+		"repo": "narphorium/explainprompt",
+		"url": "https://github.com/narphorium/explainprompt",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": true,
+		"repo_created": "2023-06-26"
+	},
+	{
+		"repo": "widgetti/ipyantd",
+		"url": "https://github.com/widgetti/ipyantd",
+		"hidive": false,
+		"widget_created": null,
+		"description": " Jupyter Widgets based on Ant Design React components ",
+		"uses_anywidget": true,
+		"repo_created": "2023-12-29"
+	},
+	{
+		"repo": "callysto/lesson-plans",
+		"url": "https://github.com/callysto/lesson-plans",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Callysto resources related to lesson plans or lesson planning",
+		"uses_anywidget": true,
+		"repo_created": "2020-03-23"
+	},
+	{
+		"repo": "cds-astro/ipyaladin",
+		"url": "https://github.com/cds-astro/ipyaladin",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An IPython Widget for Aladin Lite",
+		"uses_anywidget": true,
+		"repo_created": "2017-06-28"
+	},
+	{
+		"repo": "visgl/deck.gl  ",
+		"url": "https://github.com/visgl/deck.gl  ",
+		"hidive": false,
+		"widget_created": "2020-01-05",
+		"description": "pydeck: WebGL2 powered visualization framework",
+		"uses_anywidget": false,
+		"repo_created": "2015-12-15"
+	},
+	{
+		"repo": "isl-org/Open3D",
+		"url": "https://github.com/isl-org/Open3D",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Open3D: A Modern Library for 3D Data Processing",
+		"uses_anywidget": false,
+		"repo_created": "2016-12-02"
+	},
+	{
+		"repo": "keplergl/kepler.gl",
+		"url": "https://github.com/keplergl/kepler.gl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Kepler.gl is a powerful open source geospatial analysis tool for large-scale data sets.",
+		"uses_anywidget": false,
+		"repo_created": "2018-02-28"
+	},
+	{
+		"repo": "bqplot/bqplot",
+		"url": "https://github.com/bqplot/bqplot",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Plotting library for IPython/Jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2015-09-26"
+	},
+	{
+		"repo": "alibaba/GraphScope",
+		"url": "https://github.com/alibaba/GraphScope",
+		"hidive": false,
+		"widget_created": null,
+		"description": "🔨 🍇 💻 🚀 GraphScope: A One-Stop Large-Scale Graph Computing System from Alibaba | 一站式图计算系统",
+		"uses_anywidget": false,
+		"repo_created": "2020-10-28"
+	},
+	{
+		"repo": "jupyter-widgets/ipywidgets",
+		"url": "https://github.com/jupyter-widgets/ipywidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive Widgets for the Jupyter Notebook",
+		"uses_anywidget": false,
+		"repo_created": "2015-04-17"
+	},
+	{
+		"repo": "widgetti/ipyvolume",
+		"url": "https://github.com/widgetti/ipyvolume",
+		"hidive": false,
+		"widget_created": null,
+		"description": "3d plotting for Python in the Jupyter notebook based on IPython widgets using WebGL",
+		"uses_anywidget": false,
+		"repo_created": "2016-12-21"
+	},
+	{
+		"repo": "matplotlib/ipympl",
+		"url": "https://github.com/matplotlib/ipympl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Matplotlib Jupyter Integration",
+		"uses_anywidget": false,
+		"repo_created": "2016-07-21"
+	},
+	{
+		"repo": "jupyter-widgets/ipyleaflet",
+		"url": "https://github.com/jupyter-widgets/ipyleaflet",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter - Leaflet.js bridge",
+		"uses_anywidget": false,
+		"repo_created": "2014-05-07"
+	},
+	{
+		"repo": "sagemathinc/cocalc",
+		"url": "https://github.com/sagemathinc/cocalc",
+		"hidive": false,
+		"widget_created": null,
+		"description": "CoCalc: Collaborative Calculation in the Cloud",
+		"uses_anywidget": false,
+		"repo_created": "2015-03-19"
+	},
+	{
+		"repo": "jupyter-widgets/pythreejs",
+		"url": "https://github.com/jupyter-widgets/pythreejs",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter - Three.js bridge",
+		"uses_anywidget": false,
+		"repo_created": "2013-12-23"
+	},
+	{
+		"repo": "nglviewer/nglview",
+		"url": "https://github.com/nglviewer/nglview",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widget to interactively view molecular structures and trajectories",
+		"uses_anywidget": false,
+		"repo_created": "2015-11-09"
+	},
+	{
+		"repo": "pbugnion/gmaps",
+		"url": "https://github.com/pbugnion/gmaps",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Google maps for Jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2014-12-01"
+	},
+	{
+		"repo": "hannorein/rebound",
+		"url": "https://github.com/hannorein/rebound",
+		"hidive": false,
+		"widget_created": "2017-01-18",
+		"description": "💫 An open-source multi-purpose N-body code.",
+		"uses_anywidget": false,
+		"repo_created": "2011-07-02"
+	},
+	{
+		"repo": "RoboStack/jupyter-ros",
+		"url": "https://github.com/RoboStack/jupyter-ros",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widget helpers for ROS, the Robot Operating System",
+		"uses_anywidget": false,
+		"repo_created": "2018-01-27"
+	},
+	{
+		"repo": "InsightSoftwareConsortium/itk-jupyter-widgets",
+		"url": "https://github.com/InsightSoftwareConsortium/itk-jupyter-widgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An elegant Python interface for visualization on the web platform to interactively generate insights into multidimensional images, point sets, and geometry.",
+		"uses_anywidget": false,
+		"repo_created": "2018-02-15"
+	},
+	{
+		"repo": "jupyter-widgets-contrib/ipysheet",
+		"url": "https://github.com/jupyter-widgets-contrib/ipysheet",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter handsontable integration",
+		"uses_anywidget": false,
+		"repo_created": "2017-07-10"
+	},
+	{
+		"repo": "cduck/drawsvg",
+		"url": "https://github.com/cduck/drawsvg",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Programmatically generate SVG (vector) images, animations, and interactive Jupyter widgets",
+		"uses_anywidget": false,
+		"repo_created": "2017-12-27"
+	},
+	{
+		"repo": "bloomberg/ipydatagrid",
+		"url": "https://github.com/bloomberg/ipydatagrid",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Fast Datagrid widget for the Jupyter Notebook and JupyterLab",
+		"uses_anywidget": false,
+		"repo_created": "2019-07-19"
+	},
+	{
+		"repo": "microsoft/powerbi-jupyter",
+		"url": "https://github.com/microsoft/powerbi-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Custom Jupyter Widget Library for Power BI",
+		"uses_anywidget": false,
+		"repo_created": "2021-03-15"
+	},
+	{
+		"repo": "vega/ipyvega",
+		"url": "https://github.com/vega/ipyvega",
+		"hidive": false,
+		"widget_created": null,
+		"description": "IPython/Jupyter notebook module for Vega and Vega-Lite",
+		"uses_anywidget": false,
+		"repo_created": "2015-08-04"
+	},
+	{
+		"repo": "Quantomatic/pyzx",
+		"url": "https://github.com/Quantomatic/pyzx",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Python library for quantum circuit rewriting and optimisation using the ZX-calculus",
+		"uses_anywidget": false,
+		"repo_created": "2018-07-02"
+	},
+	{
+		"repo": "widgetti/ipyvuetify",
+		"url": "https://github.com/widgetti/ipyvuetify",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widgets based on vuetify UI components",
+		"uses_anywidget": false,
+		"repo_created": "2019-05-14"
+	},
+	{
+		"repo": "cytoscape/ipycytoscape",
+		"url": "https://github.com/cytoscape/ipycytoscape",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Cytoscape Jupyter widget",
+		"uses_anywidget": false,
+		"repo_created": "2020-02-05"
+	},
+	{
+		"repo": "datalayer/jupyter-ui",
+		"url": "https://github.com/datalayer/jupyter-ui",
+		"hidive": false,
+		"widget_created": null,
+		"description": "⚛️ React.js components 💯% compatible with 🪐 Jupyter. https://jupyter-ui-storybook.datalayer.tech",
+		"uses_anywidget": false,
+		"repo_created": "2021-10-01"
+	},
+	{
+		"repo": "maartenbreddels/ipywebrtc",
+		"url": "https://github.com/maartenbreddels/ipywebrtc",
+		"hidive": false,
+		"widget_created": null,
+		"description": "WebRTC for Jupyter notebook/lab",
+		"uses_anywidget": false,
+		"repo_created": "2017-08-10"
+	},
+	{
+		"repo": "jtpio/ipylab",
+		"url": "https://github.com/jtpio/ipylab",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Control JupyterLab from Python Notebooks with Jupyter Widgets 🧪 ☢️ 🐍",
+		"uses_anywidget": false,
+		"repo_created": "2019-11-15"
+	},
+	{
+		"repo": "ipyannotate/ipyannotate",
+		"url": "https://github.com/ipyannotate/ipyannotate",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widget for data annotation",
+		"uses_anywidget": false,
+		"repo_created": "2018-07-23"
+	},
+	{
+		"repo": "wrobstory/sticky",
+		"url": "https://github.com/wrobstory/sticky",
+		"hidive": false,
+		"widget_created": null,
+		"description": "IPython Notebook + D3",
+		"uses_anywidget": false,
+		"repo_created": "2014-04-27"
+	},
+	{
+		"repo": "QuantStack/ipytree",
+		"url": "https://github.com/QuantStack/ipytree",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Tree Widget using Jupyter-widgets protocol and jsTree",
+		"uses_anywidget": false,
+		"repo_created": "2018-09-15"
+	},
+	{
+		"repo": "bigdatagenomics/mango",
+		"url": "https://github.com/bigdatagenomics/mango",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A scalable genome browser. Apache 2 licensed.",
+		"uses_anywidget": false,
+		"repo_created": "2015-03-04"
+	},
+	{
+		"repo": "trungleduc/ipyflex",
+		"url": "https://github.com/trungleduc/ipyflex",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A WYSIWYG layout editor for Jupyter widgets",
+		"uses_anywidget": false,
+		"repo_created": "2021-10-15"
+	},
+	{
+		"repo": "paddymul/buckaroo",
+		"url": "https://github.com/paddymul/buckaroo",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Buckaroo - the data wrangling assistant for pandas.  Quickly explore dataframes, and run pandas commands via a GUI.  Works inside the jupyter notebook.",
+		"uses_anywidget": false,
+		"repo_created": "2023-04-19"
+	},
+	{
+		"repo": "nicohlr/ipychart",
+		"url": "https://github.com/nicohlr/ipychart",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The power of Chart.js with Python",
+		"uses_anywidget": false,
+		"repo_created": "2019-06-26"
+	},
+	{
+		"repo": "gereleth/jupyter-bbox-widget",
+		"url": "https://github.com/gereleth/jupyter-bbox-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget for annotating images with bounding boxes",
+		"uses_anywidget": false,
+		"repo_created": "2021-05-30"
+	},
+	{
+		"repo": "NVIDIA/ipyparaview",
+		"url": "https://github.com/NVIDIA/ipyparaview",
+		"hidive": false,
+		"widget_created": null,
+		"description": "iPython widget for server-side ParaView rendering in Jupyter.",
+		"uses_anywidget": false,
+		"repo_created": "2019-09-27"
+	},
+	{
+		"repo": "gabrielelanaro/chemview",
+		"url": "https://github.com/gabrielelanaro/chemview",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The new generation molecular viewer for IPython notebook",
+		"uses_anywidget": false,
+		"repo_created": "2014-10-29"
+	},
+	{
+		"repo": "lux-org/lux-widget",
+		"url": "https://github.com/lux-org/lux-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widget for Lux",
+		"uses_anywidget": false,
+		"repo_created": "2020-01-31"
+	},
+	{
+		"repo": "Autodesk/notebook-molecular-visualization",
+		"url": "https://github.com/Autodesk/notebook-molecular-visualization",
+		"hidive": false,
+		"widget_created": null,
+		"description": "2D and 3D molecular visualization in Jupyter notebooks using 3DMol.js and D3.js",
+		"uses_anywidget": false,
+		"repo_created": "2016-07-14"
+	},
+	{
+		"repo": "timkpaine/ipydagred3",
+		"url": "https://github.com/timkpaine/ipydagred3",
+		"hidive": false,
+		"widget_created": null,
+		"description": "ipywidgets library for drawing directed acyclic graphs in jupyterlab using dagre-d3",
+		"uses_anywidget": false,
+		"repo_created": "2020-02-29"
+	},
+	{
+		"repo": "widgetti/ipyvue",
+		"url": "https://github.com/widgetti/ipyvue",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widgets base for Vue libraries",
+		"uses_anywidget": false,
+		"repo_created": "2019-08-11"
+	},
+	{
+		"repo": "apple/ml-symphony",
+		"url": "https://github.com/apple/ml-symphony",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Symphony: Interactive Data Widgets (CHI 2022)",
+		"uses_anywidget": false,
+		"repo_created": "2023-07-28"
+	},
+	{
+		"repo": "vispy/jupyter_rfb",
+		"url": "https://github.com/vispy/jupyter_rfb",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Remote Frame Buffer for Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2021-07-09"
+	},
+	{
+		"repo": "MaayanLab/clustergrammer-widget",
+		"url": "https://github.com/MaayanLab/clustergrammer-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The Clustergrammer interactive Jupyter notebook widget",
+		"uses_anywidget": false,
+		"repo_created": "2016-09-20"
+	},
+	{
+		"repo": "Irrational-Encoding-Wizardry/yuuno",
+		"url": "https://github.com/Irrational-Encoding-Wizardry/yuuno",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Yuuno = VapourSynth + Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2017-01-06"
+	},
+	{
+		"repo": "heremaps/here-map-widget-for-jupyter",
+		"url": "https://github.com/heremaps/here-map-widget-for-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Use HERE Maps API for JavaScript in your Jupyter Notebook.",
+		"uses_anywidget": false,
+		"repo_created": "2020-12-17"
+	},
+	{
+		"repo": "PierreMarion23/ipypivot",
+		"url": "https://github.com/PierreMarion23/ipypivot",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": false,
+		"repo_created": "2017-12-04"
+	},
+	{
+		"repo": "datarho/asqlcell",
+		"url": "https://github.com/datarho/asqlcell",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": false,
+		"repo_created": "2023-01-05"
+	},
+	{
+		"repo": "jupyrdf/ipyelk",
+		"url": "https://github.com/jupyrdf/ipyelk",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widgets for interactive graphs powered by the Eclipse Layout Kernel (ELK)",
+		"uses_anywidget": false,
+		"repo_created": "2020-08-05"
+	},
+	{
+		"repo": "tridentbio/trident-chemwidgets",
+		"url": "https://github.com/tridentbio/trident-chemwidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widgets to interact with molecular datasets.",
+		"uses_anywidget": false,
+		"repo_created": "2022-02-23"
+	},
+	{
+		"repo": "nteract/outputs",
+		"url": "https://github.com/nteract/outputs",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A collection of React components for displaying rich Jupyter display objects",
+		"uses_anywidget": false,
+		"repo_created": "2020-03-19"
+	},
+	{
+		"repo": "adgt/pyQuirk",
+		"url": "https://github.com/adgt/pyQuirk",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Python widget for Quirk to be used in Jupyter notebooks, JupyterLab, and the IPython kernel.",
+		"uses_anywidget": false,
+		"repo_created": "2020-11-18"
+	},
+	{
+		"repo": "esdc-esac-esa-int/pyesasky",
+		"url": "https://github.com/esdc-esac-esa-int/pyesasky",
+		"hidive": false,
+		"widget_created": null,
+		"description": "ESASky Widget for Jupyter Notebook",
+		"uses_anywidget": false,
+		"repo_created": "2019-05-08"
+	},
+	{
+		"repo": "glue-viz/bqplot-image-gl",
+		"url": "https://github.com/glue-viz/bqplot-image-gl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widget for displaying images with a focus on astronomy",
+		"uses_anywidget": false,
+		"repo_created": "2018-11-21"
+	},
+	{
+		"repo": "bsnacks000/IPySigma-Demo",
+		"url": "https://github.com/bsnacks000/IPySigma-Demo",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Demo version of IPySigma jupyter/node.js application",
+		"uses_anywidget": false,
+		"repo_created": "2017-03-28"
+	},
+	{
+		"repo": "GLVis/pyglvis",
+		"url": "https://github.com/GLVis/pyglvis",
+		"hidive": false,
+		"widget_created": null,
+		"description": "GLVis Jupyter Widget",
+		"uses_anywidget": false,
+		"repo_created": "2019-02-11"
+	},
+	{
+		"repo": "OpenGeoscience/pygeojs",
+		"url": "https://github.com/OpenGeoscience/pygeojs",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Python/GeoJS bridge utilizing the Jupyter widget infrastructure",
+		"uses_anywidget": false,
+		"repo_created": "2018-10-18"
+	},
+	{
+		"repo": "Bayer-Group/xsmiles-jupyterlab",
+		"url": "https://github.com/Bayer-Group/xsmiles-jupyterlab",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A JupyterLab plugin implementing the XSMILES visualization",
+		"uses_anywidget": false,
+		"repo_created": "2022-08-30"
+	},
+	{
+		"repo": "cytoscape/jupyter-cytoscape",
+		"url": "https://github.com/cytoscape/jupyter-cytoscape",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Cytoscape.js API support in JS, Python, and R Jupyter kernels",
+		"uses_anywidget": false,
+		"repo_created": "2016-10-05"
+	},
+	{
+		"repo": "yt-project/widgyts",
+		"url": "https://github.com/yt-project/widgyts",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Widgets for yt",
+		"uses_anywidget": false,
+		"repo_created": "2018-03-06"
+	},
+	{
+		"repo": "Bio-OS/bio-mate",
+		"url": "https://github.com/Bio-OS/bio-mate",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": false,
+		"repo_created": "2023-10-19"
+	},
+	{
+		"repo": "cropsinsilico/jupyterlab_nodeeditor",
+		"url": "https://github.com/cropsinsilico/jupyterlab_nodeeditor",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": false,
+		"repo_created": "2021-02-24"
+	},
+	{
+		"repo": "iamDecode/cvplot",
+		"url": "https://github.com/iamDecode/cvplot",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Understand machine learning models with Contribution-Value plots",
+		"uses_anywidget": false,
+		"repo_created": "2020-12-31"
+	},
+	{
+		"repo": "wolfv/jupyter-canvas-widget",
+		"url": "https://github.com/wolfv/jupyter-canvas-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter fast canvas widget with ImageData and binary serialization",
+		"uses_anywidget": false,
+		"repo_created": "2018-01-28"
+	},
+	{
+		"repo": "jofmi/ipysimulate",
+		"url": "https://github.com/jofmi/ipysimulate",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Tools to create interactive simulations with IPython and Jupyter.",
+		"uses_anywidget": false,
+		"repo_created": "2021-03-19"
+	},
+	{
+		"repo": "fredboudon/plantgl-jupyter",
+		"url": "https://github.com/fredboudon/plantgl-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "PlantGL and L-Py Jupyter widgets",
+		"uses_anywidget": false,
+		"repo_created": "2020-04-03"
+	},
+	{
+		"repo": "Caltech-IPAC/firefly_widgets",
+		"url": "https://github.com/Caltech-IPAC/firefly_widgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widgets for Firefly",
+		"uses_anywidget": false,
+		"repo_created": "2016-07-26"
+	},
+	{
+		"repo": "JeromeEippers/ipywebgl",
+		"url": "https://github.com/JeromeEippers/ipywebgl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A simple webgl2 jupyter lab widget",
+		"uses_anywidget": false,
+		"repo_created": "2023-01-19"
+	},
+	{
+		"repo": "benbovy/ipymaps",
+		"url": "https://github.com/benbovy/ipymaps",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive multi-dimensional data-driven web map widget",
+		"uses_anywidget": false,
+		"repo_created": "2021-10-01"
+	},
+	{
+		"repo": "snickell/rej",
+		"url": "https://github.com/snickell/rej",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive image registration widget for JupterLab",
+		"uses_anywidget": false,
+		"repo_created": "2020-04-09"
+	},
+	{
+		"repo": "fhstp/soniscope-jupyter",
+		"url": "https://github.com/fhstp/soniscope-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "jupyter notebook widget with a scatter plot and an interactive lens to enable interactive sonification ",
+		"uses_anywidget": false,
+		"repo_created": "2021-12-07"
+	},
+	{
+		"repo": "data-exp-lab/yt_widgets",
+		"url": "https://github.com/data-exp-lab/yt_widgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widgets for yt",
+		"uses_anywidget": false,
+		"repo_created": "2017-12-06"
+	},
+	{
+		"repo": "codeaudit/conx",
+		"url": "https://github.com/codeaudit/conx",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Deep Learning for Simple Folk",
+		"uses_anywidget": false,
+		"repo_created": "2017-08-17"
+	},
+	{
+		"repo": "vidartf/K3D-jupyter",
+		"url": "https://github.com/vidartf/K3D-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "",
+		"uses_anywidget": false,
+		"repo_created": "2017-05-02"
+	},
+	{
+		"repo": "bollwyvl/widget-dateslider",
+		"url": "https://github.com/bollwyvl/widget-dateslider",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A date slider for Jupyter Widgets",
+		"uses_anywidget": false,
+		"repo_created": "2016-05-08"
+	},
+	{
+		"repo": "geigr/ipytone",
+		"url": "https://github.com/geigr/ipytone",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive audio in Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2020-05-25"
+	}
+]
