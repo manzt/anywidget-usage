@@ -66,3 +66,4 @@ egraphs-good/egglog-python
 cosmograph-org/py_cosmograph
 manzt/ipymario
 manzt/carbonplan-maps
+jiwnchoi/Bavisitter
