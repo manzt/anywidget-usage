@@ -57,3 +57,4 @@ kolibril13/ipyreactflow
 marimo-team/marimo
 widgetti/solara
 posit-dev/py-shinywidgets
+holoviz/panel

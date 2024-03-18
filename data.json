@@ -1081,5 +1081,15 @@
 		"use_anywidget": true,
 		"repo_created": "2021-12-02",
 		"kind": "framework"
+	},
+	{
+		"repo": "holoviz/panel",
+		"url": "https://github.com/holoviz/panel",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Panel: The powerful data exploration & web app framework for Python",
+		"use_anywidget": true,
+		"repo_created": "2018-08-23",
+		"kind": "framework"
 	}
 ]
