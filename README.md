@@ -1,4 +1,4 @@
-## anywidget-stats
+## anywidget-usage
 
 Tracking Jupyter Widgets in the wild (and their usage of anywidget)
 
