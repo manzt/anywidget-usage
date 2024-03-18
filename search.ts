@@ -1,5 +1,3 @@
-import * as cli from "jsr:@std/cli";
-
 let wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function code_search(
