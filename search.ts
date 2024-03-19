@@ -27,7 +27,7 @@ async function code_search(q: Query) {
 		url.searchParams.set("page", page.toString());
 		let response = await fetch(url, { headers });
 		let json = await response.json();
-		if (json.items.length === 0) {
+		if ((json?.items?.length ?? 0) === 0) {
 			break;
 		}
 		items.push(...json.items);
