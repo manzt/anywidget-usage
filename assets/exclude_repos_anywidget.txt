@@ -67,3 +67,5 @@ cosmograph-org/py_cosmograph
 manzt/ipymario
 manzt/carbonplan-maps
 jiwnchoi/Bavisitter
+
+john-guerra/navio_jupyter

@@ -109,14 +109,21 @@ if (import.meta.main) {
 	maybe_exit(go);
 	if (go) {
 		{
-			let url = new URL("assets/repos.json", import.meta.url);
-			let data = await Deno.readTextFile(url).then(JSON.parse);
-			data.push(entry);
-			await Deno.writeTextFile(url, JSON.stringify(data, null, "\t") + "\n");
+			repos.push(entry);
+			await Deno.writeTextFile(
+				repo_path,
+				JSON.stringify(repos, null, "\t") + "\n",
+			);
 		}
 
-		repos.push(info.repo);
-		Deno.writeTextFileSync(repo_path, repos.join("\n") + "\n");
+		{
+			let url = new URL(exclude_file, import.meta.url);
+			let excluded = await Deno.readTextFile(url).then((text) =>
+				text.split("\n")
+			);
+			excluded.push(entry.repo);
+			Deno.writeTextFileSync(exclude_file, excluded.join("\n") + "\n");
+		}
 	}
 
 	p.outro("Done");

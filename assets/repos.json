@@ -1201,5 +1201,14 @@
 		"uses_anywidget": false,
 		"repo_created": "2016-07-10",
 		"kind": "widget"
+	},
+	{
+		"repo": "john-guerra/navio_jupyter",
+		"url": "https://github.com/john-guerra/navio_jupyter",
+		"hidive": false,
+		"description": "A Jupyter widget for navio",
+		"uses_anywidget": true,
+		"repo_created": "2019-03-30",
+		"kind": "widget"
 	}
 ]
