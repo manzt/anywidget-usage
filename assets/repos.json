@@ -1210,5 +1210,13 @@
 		"uses_anywidget": true,
 		"repo_created": "2019-03-30",
 		"kind": "widget"
+	},
+	{
+		"repo": "tBuLi/kingdon",
+		"url": "https://github.com/tBuLi/kingdon",
+		"hidive": false,
+		"uses_anywidget": true,
+		"repo_created": "2022-09-19",
+		"kind": "widget"
 	}
 ]

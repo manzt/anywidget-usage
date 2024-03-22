@@ -118,9 +118,8 @@ if (import.meta.main) {
 
 		{
 			let url = new URL(exclude_file, import.meta.url);
-			let excluded = await Deno.readTextFile(url).then((text) =>
-				text.split("\n")
-			);
+			let text = await Deno.readTextFile(url);
+			let excluded = text.split("\n").filter(Boolean);
 			excluded.push(entry.repo);
 			Deno.writeTextFileSync(exclude_file, excluded.join("\n") + "\n");
 		}
