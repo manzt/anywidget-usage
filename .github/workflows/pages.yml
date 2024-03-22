@@ -29,7 +29,7 @@ jobs:
         with:
           deno-version: v1.x
       - run: |
-          deno run -A stars.ts
+          deno run --unstable-temporal -A stars.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-pages-artifact@v3

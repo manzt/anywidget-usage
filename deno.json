@@ -4,10 +4,10 @@
 		"useTabs": true
 	},
 	"tasks": {
-		"add": "GITHUB_TOKEN=$(gh auth token) deno run -A add.ts",
-		"search": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts",
-		"search-anywidget": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts anywidget",
-		"search-ipywidgets": "GITHUB_TOKEN=$(gh auth token) deno run -A search.ts ipywidgets"
+		"add": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A add.ts",
+		"search": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts",
+		"search-anywidget": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts anywidget",
+		"search-ipywidgets": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts ipywidgets"
 	},
 	"lint": {
 		"rules": {

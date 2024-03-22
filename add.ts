@@ -5,10 +5,12 @@ let RepoSchema = z.object({
 	repo: z.string(),
 	url: z.string().url(),
 	hidive: z.boolean(),
-	widget_created: z.string().nullable(),
+	widget_created: z.string()
+		.transform((x) => Temporal.PlainDate.from(x))
+		.nullable(),
 	description: z.string(),
 	uses_anywidget: z.boolean(),
-	repo_created: z.coerce.date(),
+	repo_created: z.string().transform((x) => Temporal.PlainDate.from(x)),
 	kind: z.enum(["widget", "framework"]).optional(),
 });
 
@@ -51,7 +53,7 @@ function maybe_exit<T>(x: T | symbol): T {
 if (import.meta.main) {
 	p.intro("Add a new widget project");
 	let repo_path = new URL("assets/repos.json", import.meta.url);
-	let text = await Deno.readTextFile(repo_path)
+	let text = await Deno.readTextFile(repo_path);
 	let repos = z.array(RepoSchema).parse(JSON.parse(text));
 
 	let repo = await p.text({
@@ -76,6 +78,9 @@ if (import.meta.main) {
 		message: "Description",
 		initialValue: info.description,
 		placeholder: "Type a description",
+		validate(value) {
+			if (value.length === 0) return "Description is required";
+		},
 	});
 	maybe_exit(description);
 	let widget_created = await p.text({
@@ -110,7 +115,7 @@ if (import.meta.main) {
 		repo: info.repo,
 		url: `https://github.com/${info.repo}`,
 		hidive: hidive,
-		widget_created: widget_created === "" ? null : widget_created,
+		widget_created: widget_created ?? null,
 		description: description,
 		uses_anywidget: uses_anywidget,
 		repo_created: info.repo_created,
