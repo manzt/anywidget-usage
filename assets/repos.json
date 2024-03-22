@@ -1206,6 +1206,7 @@
 		"repo": "john-guerra/navio_jupyter",
 		"url": "https://github.com/john-guerra/navio_jupyter",
 		"hidive": false,
+		"widget_created": null,
 		"description": "A Jupyter widget for navio",
 		"uses_anywidget": true,
 		"repo_created": "2019-03-30",
@@ -1215,6 +1216,8 @@
 		"repo": "tBuLi/kingdon",
 		"url": "https://github.com/tBuLi/kingdon",
 		"hidive": false,
+		"widget_created": null,
+		"description": "A symbolically optimized and pythonic Clifford (geometric) algebra library named after none other than William Kingdon Clifford.",
 		"uses_anywidget": true,
 		"repo_created": "2022-09-19",
 		"kind": "widget"

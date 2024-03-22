@@ -1,4 +1,16 @@
-import * as p from "npm:@clack/prompts";
+import * as p from "npm:@clack/prompts@0.7.0";
+import { z } from "npm:zod@3.22.4";
+
+let RepoSchema = z.object({
+	repo: z.string(),
+	url: z.string().url(),
+	hidive: z.boolean(),
+	widget_created: z.string().nullable(),
+	description: z.string(),
+	uses_anywidget: z.boolean(),
+	repo_created: z.coerce.date(),
+	kind: z.enum(["widget", "framework"]).optional(),
+});
 
 export async function fetch_repo_info(
 	repo: string,
@@ -39,7 +51,8 @@ function maybe_exit<T>(x: T | symbol): T {
 if (import.meta.main) {
 	p.intro("Add a new widget project");
 	let repo_path = new URL("assets/repos.json", import.meta.url);
-	let repos = await Deno.readTextFile(repo_path).then(JSON.parse);
+	let text = await Deno.readTextFile(repo_path)
+	let repos = z.array(RepoSchema).parse(JSON.parse(text));
 
 	let repo = await p.text({
 		message: "Repository",
@@ -48,9 +61,9 @@ if (import.meta.main) {
 	});
 	maybe_exit(repo);
 
-	if (repos.some((r: any) => r.repo === repo)) {
+	if (repos.some((r) => r.repo === repo)) {
 		p.cancel("Repo already exists");
-		console.log(repos.find((r: any) => r.repo === repo));
+		console.log(repos.find((r) => r.repo === repo));
 		Deno.exit(1);
 	}
 
@@ -93,7 +106,7 @@ if (import.meta.main) {
 	});
 	maybe_exit(add_to_ignore);
 
-	let entry = {
+	let entry = RepoSchema.parse({
 		repo: info.repo,
 		url: `https://github.com/${info.repo}`,
 		hidive: hidive,
@@ -102,7 +115,7 @@ if (import.meta.main) {
 		uses_anywidget: uses_anywidget,
 		repo_created: info.repo_created,
 		kind,
-	};
+	});
 
 	console.log(entry);
 	let go = await p.confirm({ message: "Add this entry?" });
