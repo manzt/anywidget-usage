@@ -1231,5 +1231,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2021-03-23",
 		"kind": "widget"
+	},
+	{
+		"repo": "osscar-org/widget-bandsplot",
+		"url": "https://github.com/osscar-org/widget-bandsplot",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget to plot bandstructure and density of states.",
+		"uses_anywidget": true,
+		"repo_created": "2021-02-28",
+		"kind": "widget"
 	}
 ]

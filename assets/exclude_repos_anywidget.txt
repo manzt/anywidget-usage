@@ -70,3 +70,4 @@ jiwnchoi/Bavisitter
 john-guerra/navio_jupyter
 tBuLi/kingdon
 osscar-org/widget-bzvisualizer
+osscar-org/widget-bandsplot
