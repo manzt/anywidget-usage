@@ -1251,5 +1251,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2020-11-12",
 		"kind": "widget"
+	},
+	{
+		"repo": "gosling-lang/gosling-widget",
+		"url": "https://github.com/gosling-lang/gosling-widget",
+		"hidive": true,
+		"widget_created": null,
+		"description": "Jupyter Widget for the Gosling genomics visualization grammar",
+		"uses_anywidget": false,
+		"repo_created": "2022-04-20",
+		"kind": "widget"
 	}
 ]
