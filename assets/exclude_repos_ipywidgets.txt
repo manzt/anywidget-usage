@@ -84,3 +84,4 @@ dinorows/conx2
 Armagomen/wot_decompiled
 IzeBerg/wot-src
 Kostya12rus/create_wot_emmet
+jupyter-widgets-contrib/ipyigv
