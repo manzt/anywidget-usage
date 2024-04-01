@@ -522,15 +522,6 @@
 		"repo_created": "2017-07-10"
 	},
 	{
-		"repo": "cduck/drawsvg",
-		"url": "https://github.com/cduck/drawsvg",
-		"hidive": false,
-		"widget_created": null,
-		"description": "Programmatically generate SVG (vector) images, animations, and interactive Jupyter widgets",
-		"uses_anywidget": false,
-		"repo_created": "2017-12-27"
-	},
-	{
 		"repo": "bloomberg/ipydatagrid",
 		"url": "https://github.com/bloomberg/ipydatagrid",
 		"hidive": false,
