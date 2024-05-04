@@ -1262,5 +1262,55 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-03-31",
 		"kind": "widget"
+	},
+	{
+		"repo": "manzt/pygv",
+		"url": "https://github.com/manzt/pygv",
+		"hidive": true,
+		"widget_created": null,
+		"description": "a minimal, scriptable genome browser for python",
+		"uses_anywidget": true,
+		"repo_created": "2024-03-30",
+		"kind": "widget"
+	},
+	{
+		"repo": "osscar-org/widget-periodictable",
+		"url": "https://github.com/osscar-org/widget-periodictable",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A jupyter widget to select chemical elements from the periodic table.",
+		"uses_anywidget": true,
+		"repo_created": "2020-03-09",
+		"kind": "widget"
+	},
+	{
+		"repo": "superstar54/aiida-bader",
+		"url": "https://github.com/superstar54/aiida-bader",
+		"hidive": false,
+		"widget_created": null,
+		"description": "AiiDA plugin for Bader charge analysis",
+		"uses_anywidget": true,
+		"repo_created": "2023-10-04",
+		"kind": "widget"
+	},
+	{
+		"repo": "michelle123lam/lloom",
+		"url": "https://github.com/michelle123lam/lloom",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM (CHI 2024 paper). LLooM automatically surfaces high-level concepts to analyze unstructured text.",
+		"uses_anywidget": true,
+		"repo_created": "2024-02-02",
+		"kind": "widget"
+	},
+	{
+		"repo": "H-IAAC/d3vis_ipynb",
+		"url": "https://github.com/H-IAAC/d3vis_ipynb",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Custom Jupyter Widget Library with visualizations created with D3.js",
+		"uses_anywidget": true,
+		"repo_created": "2024-04-09",
+		"kind": "widget"
 	}
 ]

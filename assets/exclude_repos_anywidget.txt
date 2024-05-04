@@ -72,3 +72,9 @@ tBuLi/kingdon
 osscar-org/widget-bzvisualizer
 osscar-org/widget-bandsplot
 nuwandavek/justplotme
+manzt/pygv
+osscar-org/widget-periodictable
+Xen0Xys/AnyWidget-Async-Bug
+superstar54/aiida-bader
+michelle123lam/lloom
+H-IAAC/d3vis_ipynb
