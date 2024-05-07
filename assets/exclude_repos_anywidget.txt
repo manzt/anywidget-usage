@@ -79,3 +79,4 @@ superstar54/aiida-bader
 michelle123lam/lloom
 H-IAAC/d3vis_ipynb
 jakobtroidl/jbar
+powsybl/pypowsybl-jupyter
