@@ -1332,5 +1332,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2022-04-22",
 		"kind": "widget"
+	},
+	{
+		"repo": "superstar54/aiida-workgraph",
+		"url": "https://github.com/superstar54/aiida-workgraph",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Design flexible node-based workflows using AiiDA",
+		"uses_anywidget": true,
+		"repo_created": "2023-07-27",
+		"kind": "widget"
 	}
 ]
