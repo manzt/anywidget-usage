@@ -81,3 +81,4 @@ H-IAAC/d3vis_ipynb
 jakobtroidl/jbar
 powsybl/pypowsybl-jupyter
 superstar54/aiida-workgraph
+koaning/wigglystuff
