@@ -82,3 +82,4 @@ jakobtroidl/jbar
 powsybl/pypowsybl-jupyter
 superstar54/aiida-workgraph
 koaning/wigglystuff
+Toepfer-Lab/cobramod

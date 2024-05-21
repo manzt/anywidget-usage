@@ -1352,5 +1352,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-05-19",
 		"kind": "widget"
+	},
+	{
+		"repo": "Toepfer-Lab/cobramod",
+		"url": "https://github.com/Toepfer-Lab/cobramod",
+		"hidive": false,
+		"widget_created": "2024-05-16",
+		"description": "modify and extend genome-scale metabolic models with metabolic pathway information from various metabolic pathways databases or user-curated data sets",
+		"uses_anywidget": true,
+		"repo_created": "2020-11-18",
+		"kind": "widget"
 	}
 ]
