@@ -1362,5 +1362,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2020-11-18",
 		"kind": "widget"
+	},
+	{
+		"repo": "osscar-org/widget-code-input",
+		"url": "https://github.com/osscar-org/widget-code-input",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A jupyter widget to allow input of a python function, with syntax highlighting",
+		"uses_anywidget": true,
+		"repo_created": "2019-05-06",
+		"kind": "widget"
 	}
 ]
