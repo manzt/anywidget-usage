@@ -1372,5 +1372,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2019-05-06",
 		"kind": "widget"
+	},
+	{
+		"repo": "Cogniveon/torchflux",
+		"url": "https://github.com/Cogniveon/torchflux",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An opinionated zero-config pytorch trainer",
+		"uses_anywidget": true,
+		"repo_created": "2024-04-27",
+		"kind": "widget"
 	}
 ]

@@ -84,3 +84,4 @@ superstar54/aiida-workgraph
 koaning/wigglystuff
 Toepfer-Lab/cobramod
 osscar-org/widget-code-input
+Cogniveon/torchflux
