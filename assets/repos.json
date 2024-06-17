@@ -1382,5 +1382,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-04-27",
 		"kind": "widget"
+	},
+	{
+		"repo": "aiidalab/widget-dropdown",
+		"url": "https://github.com/aiidalab/widget-dropdown",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widget for a dropdown selector.",
+		"uses_anywidget": true,
+		"repo_created": "2024-06-14",
+		"kind": "widget"
 	}
 ]
