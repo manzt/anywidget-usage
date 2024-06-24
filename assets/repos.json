@@ -1392,5 +1392,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-06-14",
 		"kind": "widget"
+	},
+	{
+		"repo": "rerun-io/rerun",
+		"url": "https://github.com/rerun-io/rerun",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Visualize streams of multimodal data. Fast, easy to use, and simple to integrate.  Built in Rust using egui.",
+		"uses_anywidget": true,
+		"repo_created": "2022-04-08",
+		"kind": "widget"
 	}
 ]
