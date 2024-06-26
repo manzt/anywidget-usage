@@ -1402,5 +1402,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2022-04-08",
 		"kind": "widget"
+	},
+	{
+		"repo": "abdenlab/ipylangchat",
+		"url": "https://github.com/abdenlab/ipylangchat",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Serverless Jupyter chat UI for LangChain conversational AIs",
+		"uses_anywidget": true,
+		"repo_created": "2024-06-24",
+		"kind": "widget"
 	}
 ]

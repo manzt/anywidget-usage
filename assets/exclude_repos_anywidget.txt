@@ -87,3 +87,4 @@ osscar-org/widget-code-input
 Cogniveon/torchflux
 aiidalab/widget-dropdown
 rerun-io/rerun
+abdenlab/ipylangchat
