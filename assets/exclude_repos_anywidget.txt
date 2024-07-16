@@ -89,3 +89,4 @@ aiidalab/widget-dropdown
 rerun-io/rerun
 abdenlab/ipylangchat
 mwcraig/soupernova
+shyamsantoki/textlloom

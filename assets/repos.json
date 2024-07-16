@@ -1422,5 +1422,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-07-14",
 		"kind": "widget"
+	},
+	{
+		"repo": "shyamsantoki/textlloom",
+		"url": "https://github.com/shyamsantoki/textlloom",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Directory for the LLooM python package",
+		"uses_anywidget": true,
+		"repo_created": "2024-07-16",
+		"kind": "widget"
 	}
 ]
