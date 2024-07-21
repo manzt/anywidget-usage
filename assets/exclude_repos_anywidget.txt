@@ -90,3 +90,4 @@ rerun-io/rerun
 abdenlab/ipylangchat
 mwcraig/soupernova
 shyamsantoki/textlloom
+opengeos/leafmap
