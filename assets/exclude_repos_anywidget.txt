@@ -91,3 +91,4 @@ abdenlab/ipylangchat
 mwcraig/soupernova
 shyamsantoki/textlloom
 opengeos/leafmap
+manzt/quak

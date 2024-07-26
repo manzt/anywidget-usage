@@ -1442,5 +1442,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2021-03-10",
 		"kind": "widget"
+	},
+	{
+		"repo": "manzt/quak",
+		"url": "https://github.com/manzt/quak",
+		"hidive": true,
+		"widget_created": null,
+		"description": "a scalable data profiler for quickly scanning large tables in Jupyter",
+		"uses_anywidget": true,
+		"repo_created": "2024-06-19",
+		"kind": "widget"
 	}
 ]
