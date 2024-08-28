@@ -175,3 +175,4 @@ jonmmease/ipyplotly
 ORNL/ipyanchorviz
 ideonate/jupyter-containds
 H-IAAC/custom_ipywidgets
+kedarisetti/VideoPlayerWidget

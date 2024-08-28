@@ -1932,5 +1932,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2022-08-16",
 		"kind": "widget"
+	},
+	{
+		"repo": "kedarisetti/VideoPlayerWidget",
+		"url": "https://github.com/kedarisetti/VideoPlayerWidget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Custom Jupyter Widget Library for playing Videos",
+		"uses_anywidget": false,
+		"repo_created": "2022-12-03",
+		"kind": "widget"
 	}
 ]
