@@ -234,3 +234,4 @@ WorldWideTelescope/pywwt-old-branches
 cytoscape/cytoscape-jupyter-widget
 ocoudray/first-widget
 gramhagen/glitter-ridders
+data-exp-lab/jupyter-widget-transferfunction
