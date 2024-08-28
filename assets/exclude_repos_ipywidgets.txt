@@ -207,3 +207,4 @@ jupyter-widgets/ipydatagrid
 twavv/ipydraw
 VisDunneRight/setmlvis
 stsouko/marvin_jupyter
+sci-visus/ipyvisus

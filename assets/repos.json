@@ -2062,5 +2062,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-03-09",
 		"kind": "widget"
+	},
+	{
+		"repo": "sci-visus/ipyvisus",
+		"url": "https://github.com/sci-visus/ipyvisus",
+		"hidive": false,
+		"widget_created": null,
+		"description": "OpenViSUS Visualization project",
+		"uses_anywidget": false,
+		"repo_created": "2020-02-04",
+		"kind": "widget"
 	}
 ]
