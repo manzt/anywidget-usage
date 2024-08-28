@@ -267,3 +267,4 @@ yitzchak/joint-clj
 osscar-org/widget-jsmol
 faustomorales/qsl
 educational-technology-collective/etc_jupyterlab_distribution
+MaastrichtU-BISS/Vantage6-Researcher-Notebooks
