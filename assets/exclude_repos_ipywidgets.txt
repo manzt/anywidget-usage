@@ -120,3 +120,4 @@ deathbeds/wxyz
 ScienceStacks/jupyter_scisheets_widget
 jupyter-widgets/jupyterlab-sidecar
 davidbrochart/ipyearth
+googlecolab/colab-cdn-widget-manager
