@@ -336,3 +336,4 @@ b3m2a1/ActiveHTMLWidget
 dave-epstein/ipycanvas_custom
 PriceLab/dora-nbextension
 jupyter-robotics/ipylgbst
+Who8MyLunch/Jupyter_Video_Widget

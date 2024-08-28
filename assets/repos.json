@@ -2592,5 +2592,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-01-17",
 		"kind": "widget"
+	},
+	{
+		"repo": "Who8MyLunch/Jupyter_Video_Widget",
+		"url": "https://github.com/Who8MyLunch/Jupyter_Video_Widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widget for an awesome HTML5 video player",
+		"uses_anywidget": false,
+		"repo_created": "2017-02-26",
+		"kind": "widget"
 	}
 ]
