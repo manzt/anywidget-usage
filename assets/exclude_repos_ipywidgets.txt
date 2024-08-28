@@ -153,3 +153,4 @@ krassowski/jupyter-locuszoom
 yitzchak/ngl-clj
 olkuka/multiqc_jupyterlab
 chestrays/cornerstone_widget
+Nic30/jupyter_widget_hwt
