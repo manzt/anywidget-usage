@@ -314,3 +314,4 @@ ArtificialIntelligenceToolkit/jyrobot-widget
 deephaven/deephaven-ipywidgets
 zakandrewking/jupyter-widget-example
 DanielKerrigan/PDPilot
+kazuar/jupyter_britecharts_widget_tutorial
