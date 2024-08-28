@@ -152,3 +152,4 @@ juntyr/ipyfilite
 krassowski/jupyter-locuszoom
 yitzchak/ngl-clj
 olkuka/multiqc_jupyterlab
+chestrays/cornerstone_widget

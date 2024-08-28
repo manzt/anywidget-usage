@@ -1872,5 +1872,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-07-21",
 		"kind": "widget"
+	},
+	{
+		"repo": "chestrays/cornerstone_widget",
+		"url": "https://github.com/chestrays/cornerstone_widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A jupyter widget for the cornerstone library to make showing flashy images with nice tools easier.",
+		"uses_anywidget": false,
+		"repo_created": "2018-09-04",
+		"kind": "widget"
 	}
 ]
