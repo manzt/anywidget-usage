@@ -2262,5 +2262,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-04-09",
 		"kind": "widget"
+	},
+	{
+		"repo": "dive4dec/divewidgets",
+		"url": "https://github.com/dive4dec/divewidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Widgets for DIVE virtual learning environment.",
+		"uses_anywidget": false,
+		"repo_created": "2022-08-07",
+		"kind": "widget"
 	}
 ]

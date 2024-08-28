@@ -255,3 +255,4 @@ medialab/ipysigma
 randomunrandom/text_selector
 upsetjs/upsetjs_jupyter_widget
 mhochsteger/test
+dive4dec/divewidgets
