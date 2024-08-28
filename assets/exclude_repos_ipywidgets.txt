@@ -126,3 +126,8 @@ thomasballinger/observable-jupyter-widget
 zziyifan/Medical-AI-learning-1
 cylynx/motif.gl
 manzt/ipyfoo
+pnnl/hypernetx-widget
+vidartf/ipyscales
+causalvis/causalvis
+python-bonobo/bonobo
+vidartf/jupyter-vtk-datawidgets

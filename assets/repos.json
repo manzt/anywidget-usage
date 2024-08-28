@@ -1742,5 +1742,35 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-08-09",
 		"kind": "widget"
+	},
+	{
+		"repo": "pnnl/hypernetx-widget",
+		"url": "https://github.com/pnnl/hypernetx-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Look at graphs",
+		"uses_anywidget": false,
+		"repo_created": "2021-04-21",
+		"kind": "widget"
+	},
+	{
+		"repo": "vidartf/ipyscales",
+		"url": "https://github.com/vidartf/ipyscales",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A widget library for scales",
+		"uses_anywidget": false,
+		"repo_created": "2017-08-24",
+		"kind": "widget"
+	},
+	{
+		"repo": "python-bonobo/bonobo",
+		"url": "https://github.com/python-bonobo/bonobo",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Extract Transform Load for Python 3.5+",
+		"uses_anywidget": false,
+		"repo_created": "2016-12-09",
+		"kind": "widget"
 	}
 ]
