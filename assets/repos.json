@@ -2542,5 +2542,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-04-16",
 		"kind": "widget"
+	},
+	{
+		"repo": "CERBSim/webgui_jupyter_widgets",
+		"url": "https://github.com/CERBSim/webgui_jupyter_widgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter widgetds library for webgui js visualization library'",
+		"uses_anywidget": false,
+		"repo_created": "2021-04-06",
+		"kind": "widget"
 	}
 ]

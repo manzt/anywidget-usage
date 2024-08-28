@@ -324,3 +324,4 @@ progressivis/ipytablewidgets
 opentradesolutions/ipyselect2
 davidbrochart/ipylayout
 TileDB-Inc/TileDB-Jupyter-Plot-Widget
+CERBSim/webgui_jupyter_widgets
