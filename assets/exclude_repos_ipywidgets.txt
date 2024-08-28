@@ -361,3 +361,4 @@ cui422/perspective
 boyuai/ipyturtle2
 space928/Shaders-For-Scientific-Visualisation
 blois/portable-widget-manager
+iynehz/ipyaggrid
