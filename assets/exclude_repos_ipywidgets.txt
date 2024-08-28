@@ -171,3 +171,4 @@ fekad/jupyter-jsmol
 cdr4eelz/serialhub
 twosigma/beaker-notebook-archive
 vlandham/jupyter_vizard
+jonmmease/ipyplotly
