@@ -366,3 +366,4 @@ gosling-lang/gosling.py
 davidbrochart/ipybertin
 LibreTexts/jupyterteam_widget
 bptlab/data-based-process-variant-analysis
+jupyter-widgets/widget-ts-cookiecutter
