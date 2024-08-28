@@ -1902,5 +1902,25 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-10-01",
 		"kind": "widget"
+	},
+	{
+		"repo": "fekad/jupyter-jsmol",
+		"url": "https://github.com/fekad/jupyter-jsmol",
+		"hidive": false,
+		"widget_created": null,
+		"description": "This is JSmol viewer widget for Jupyter Notebooks and JupyterLab",
+		"uses_anywidget": false,
+		"repo_created": "2020-02-16",
+		"kind": "widget"
+	},
+	{
+		"repo": "cdr4eelz/serialhub",
+		"url": "https://github.com/cdr4eelz/serialhub",
+		"hidive": false,
+		"widget_created": null,
+		"description": "WebSerial widget for Jupyter Hub/Lab",
+		"uses_anywidget": false,
+		"repo_created": "2020-07-06",
+		"kind": "widget"
 	}
 ]
