@@ -226,3 +226,4 @@ DonJayamanne/dump
 mammut-io/brat-widget
 pnnl/genx
 manikyabard/DashAI
+exa-analytics/exatomic
