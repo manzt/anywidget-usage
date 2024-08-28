@@ -331,3 +331,4 @@ msoechting/lexcube
 Kareliavs/ModifiedKepler
 davidbrochart/ipyhtmx
 rbavishi/vizsmith-demo
+CDAT/cdat-notebook-widgets
