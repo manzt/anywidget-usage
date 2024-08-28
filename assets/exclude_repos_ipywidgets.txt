@@ -230,3 +230,4 @@ exa-analytics/exatomic
 oznome/knownet-widget
 romero-jose/dsvisualizer
 gbrault/jupyterpivot
+WorldWideTelescope/pywwt-old-branches
