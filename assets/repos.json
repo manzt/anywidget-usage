@@ -2712,5 +2712,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-09-18",
 		"kind": "widget"
+	},
+	{
+		"repo": "davidbrochart/ipybertin",
+		"url": "https://github.com/davidbrochart/ipybertin",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter - Bertin.js bridge",
+		"uses_anywidget": false,
+		"repo_created": "2022-06-25",
+		"kind": "widget"
 	}
 ]
