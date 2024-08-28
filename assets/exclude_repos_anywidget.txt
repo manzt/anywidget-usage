@@ -92,3 +92,4 @@ mwcraig/soupernova
 shyamsantoki/textlloom
 opengeos/leafmap
 manzt/quak
+NickCrews/ibis-widget

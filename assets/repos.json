@@ -1862,5 +1862,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-06-29",
 		"kind": "widget"
+	},
+	{
+		"repo": "NickCrews/ibis-widget",
+		"url": "https://github.com/NickCrews/ibis-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A lightweight Jupyterwidget for searching and viewing (and later filtering, sorting, etc) Ibis tables",
+		"uses_anywidget": true,
+		"repo_created": "2024-07-21",
+		"kind": "widget"
 	}
 ]
