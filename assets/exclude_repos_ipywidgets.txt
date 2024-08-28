@@ -165,3 +165,5 @@ markytools/strexp
 Konatazz/DeFinder
 pshakhmin/deepfakes
 ml-research/learning-by-self-explaining
+aws/graph-notebook
+jaybdub/jupyter_clickable_image_widget
