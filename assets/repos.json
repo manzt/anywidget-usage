@@ -2452,5 +2452,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-10-09",
 		"kind": "widget"
+	},
+	{
+		"repo": "flatsurf/ipymuvue",
+		"url": "https://github.com/flatsurf/ipymuvue",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Vue 3 widgets for Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2022-07-25",
+		"kind": "widget"
 	}
 ]
