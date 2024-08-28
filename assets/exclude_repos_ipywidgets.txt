@@ -174,3 +174,4 @@ vlandham/jupyter_vizard
 jonmmease/ipyplotly
 ORNL/ipyanchorviz
 ideonate/jupyter-containds
+H-IAAC/custom_ipywidgets
