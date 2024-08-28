@@ -621,8 +621,8 @@
 		"repo_created": "2014-04-27"
 	},
 	{
-		"repo": "QuantStack/ipytree",
-		"url": "https://github.com/QuantStack/ipytree",
+		"repo": "jupyter-widgets-contrib/ipytree",
+		"url": "https://github.com/jupyter-widgets-contrib/ipytree",
 		"hidive": false,
 		"widget_created": null,
 		"description": "A Tree Widget using Jupyter-widgets protocol and jsTree",
@@ -1491,6 +1491,226 @@
 		"description": "A custom widget for returning mouse and keyboard events to Python",
 		"uses_anywidget": false,
 		"repo_created": "2017-10-28",
+		"kind": "widget"
+	},
+	{
+		"repo": "finos/perspective",
+		"url": "https://github.com/finos/perspective",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A data visualization and analytics component, especially well-suited for large and/or streaming datasets.",
+		"uses_anywidget": false,
+		"repo_created": "2017-11-02",
+		"kind": "widget"
+	},
+	{
+		"repo": "plotly/plotly.py",
+		"url": "https://github.com/plotly/plotly.py",
+		"hidive": false,
+		"widget_created": null,
+		"description": "The interactive graphing library for Python",
+		"uses_anywidget": false,
+		"repo_created": "2013-11-21",
+		"kind": "widget"
+	},
+	{
+		"repo": "bokeh/jupyter_bokeh",
+		"url": "https://github.com/bokeh/jupyter_bokeh",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An extension for rendering Bokeh content in JupyterLab notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2017-08-14",
+		"kind": "widget"
+	},
+	{
+		"repo": "catboost/catboost",
+		"url": "https://github.com/catboost/catboost",
+		"hidive": false,
+		"widget_created": "2021-03-28",
+		"description": "A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU.",
+		"uses_anywidget": false,
+		"repo_created": "2017-07-18",
+		"kind": "widget"
+	},
+	{
+		"repo": "zxcalc/pyzx",
+		"url": "https://github.com/zxcalc/pyzx",
+		"hidive": false,
+		"widget_created": "2020-03-31",
+		"description": "Python library for quantum circuit rewriting and optimisation using the ZX-calculus",
+		"uses_anywidget": false,
+		"repo_created": "2018-07-02",
+		"kind": "widget"
+	},
+	{
+		"repo": "AaronWatters/jp_proxy_widget",
+		"url": "https://github.com/AaronWatters/jp_proxy_widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Generic Jupyter/IPython widget implementation that will support many types of javascript libraries and interactions.",
+		"uses_anywidget": false,
+		"repo_created": "2017-10-30",
+		"kind": "widget"
+	},
+	{
+		"repo": "ploomber/jupysql-plugin",
+		"url": "https://github.com/ploomber/jupysql-plugin",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Run SQL and plot large datasets",
+		"uses_anywidget": false,
+		"repo_created": "2023-03-16",
+		"kind": "widget"
+	},
+	{
+		"repo": "AISpace2/AISpace2",
+		"url": "https://github.com/AISpace2/AISpace2",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Notebooks for learning AI.",
+		"uses_anywidget": false,
+		"repo_created": "2017-07-06",
+		"kind": "widget"
+	},
+	{
+		"repo": "interpretml/interpret",
+		"url": "https://github.com/interpretml/interpret",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Fit interpretable models. Explain blackbox machine learning. ",
+		"uses_anywidget": false,
+		"repo_created": "2019-05-03",
+		"kind": "widget"
+	},
+	{
+		"repo": "g2nb/nbtools",
+		"url": "https://github.com/g2nb/nbtools",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A framework for creating user-friendly widgets and tools in Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2017-02-24",
+		"kind": "widget"
+	},
+	{
+		"repo": "QuantStack/ipyopenlayers",
+		"url": "https://github.com/QuantStack/ipyopenlayers",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widgets library for OpenLayersJS",
+		"uses_anywidget": false,
+		"repo_created": "2024-04-26",
+		"kind": "widget"
+	},
+	{
+		"repo": "cbouy/mols2grid",
+		"url": "https://github.com/cbouy/mols2grid",
+		"hidive": false,
+		"widget_created": "2022-09-03",
+		"description": "Interactive molecule viewer for 2D structures",
+		"uses_anywidget": false,
+		"repo_created": "2021-03-17",
+		"kind": "widget"
+	},
+	{
+		"repo": "ismms-himc/clustergrammer2",
+		"url": "https://github.com/ismms-himc/clustergrammer2",
+		"hidive": false,
+		"widget_created": null,
+		"description": "\"Dimensionality-increasing\" data visualization tool and interactive WebGL Jupyter widget built for single-cell data.",
+		"uses_anywidget": false,
+		"repo_created": "2018-04-10",
+		"kind": "widget"
+	},
+	{
+		"repo": "Kalhina/ipychess",
+		"url": "https://github.com/Kalhina/ipychess",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Chess UI for IPython/Jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2022-05-09",
+		"kind": "widget"
+	},
+	{
+		"repo": "aperiosoftware/jupyter-aas-timeseries",
+		"url": "https://github.com/aperiosoftware/jupyter-aas-timeseries",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widget for the AAS Time Series project",
+		"uses_anywidget": false,
+		"repo_created": "2018-10-15",
+		"kind": "widget"
+	},
+	{
+		"repo": "cmudig/emblaze",
+		"url": "https://github.com/cmudig/emblaze",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive Jupyter notebook widget for visually comparing embedding spaces.",
+		"uses_anywidget": false,
+		"repo_created": "2021-08-13",
+		"kind": "widget"
+	},
+	{
+		"repo": "quantopian/qgrid",
+		"url": "https://github.com/quantopian/qgrid",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An interactive grid for sorting, filtering, and editing DataFrames in Jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2014-09-30",
+		"kind": "widget"
+	},
+	{
+		"repo": "ProtProtocols/jupyter-button_execute",
+		"url": "https://github.com/ProtProtocols/jupyter-button_execute",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter notebook widget displaying a button to execute subsequent cells.",
+		"uses_anywidget": false,
+		"repo_created": "2018-10-04",
+		"kind": "widget"
+	},
+	{
+		"repo": "saraedum/ipyvue-remote-component",
+		"url": "https://github.com/saraedum/ipyvue-remote-component",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Load Vue.js Packages at Runtime in Jupyter Notebooks and JupyterLab",
+		"uses_anywidget": false,
+		"repo_created": "2020-07-03",
+		"kind": "widget"
+	},
+	{
+		"repo": "0phoff/ibb",
+		"url": "https://github.com/0phoff/ibb",
+		"hidive": false,
+		"widget_created": null,
+		"description": "IPython widgets from Brambox",
+		"uses_anywidget": false,
+		"repo_created": "2019-08-06",
+		"kind": "widget"
+	},
+	{
+		"repo": "bernhard-42/cad-viewer-widget",
+		"url": "https://github.com/bernhard-42/cad-viewer-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An ipywidget based interface to the Javascript three-cad-viewer",
+		"uses_anywidget": false,
+		"repo_created": "2022-01-17",
+		"kind": "widget"
+	},
+	{
+		"repo": "deathbeds/wxyz",
+		"url": "https://github.com/deathbeds/wxyz",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Some Experimental Widgets",
+		"uses_anywidget": false,
+		"repo_created": "2019-02-23",
 		"kind": "widget"
 	}
 ]

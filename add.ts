@@ -69,7 +69,7 @@ if (import.meta.main) {
 		Deno.exit(1);
 	}
 
-	let uses_anywidget = await p.confirm({ message: "Uses anywidget?" });
+	let uses_anywidget = await p.confirm({ message: "Uses anywidget?", initialValue: false });
 	maybe_exit(uses_anywidget);
 	let hidive = await p.confirm({ message: "HIDIVE?", initialValue: false });
 	maybe_exit(hidive);
