@@ -139,3 +139,5 @@ davidbrochart/ipyurl
 K3D-tools/K3D-jupyter
 rdevonport/ipyupload
 orionr/captum-2
+ianhi/custom-ipywidget-howto
+hakanhp/cs
