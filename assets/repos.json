@@ -2192,5 +2192,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2017-11-13",
 		"kind": "widget"
+	},
+	{
+		"repo": "TileDB-Inc/TileDB-PyBabylonJS",
+		"url": "https://github.com/TileDB-Inc/TileDB-PyBabylonJS",
+		"hidive": false,
+		"widget_created": null,
+		"description": "BabylonJS based viewer for three dimensional TileDB arrays",
+		"uses_anywidget": false,
+		"repo_created": "2021-03-18",
+		"kind": "widget"
 	}
 ]
