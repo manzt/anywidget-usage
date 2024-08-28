@@ -291,3 +291,4 @@ franchesoni/jupyter_segmentation
 deathbeds/jupikchr
 JelmerBot/3d-network-widget
 maurodiaz7/Cripav-module
+paddymul/widget-ts-cookiecutter-error
