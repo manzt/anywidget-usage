@@ -88,3 +88,5 @@ jupyter-widgets-contrib/ipyigv
 gosling-lang/gosling-widget
 Kurzdor/wot-py-autocomplete
 ianhi/ipysegment
+tensorware/ipypandas
+davidbrochart/ipyspin

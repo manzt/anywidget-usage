@@ -1462,5 +1462,25 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-05-15",
 		"kind": "widget"
+	},
+	{
+		"repo": "tensorware/ipypandas",
+		"url": "https://github.com/tensorware/ipypandas",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive features for the python data analysis library pandas in jupyter.",
+		"uses_anywidget": false,
+		"repo_created": "2022-02-05",
+		"kind": "widget"
+	},
+	{
+		"repo": "davidbrochart/ipyspin",
+		"url": "https://github.com/davidbrochart/ipyspin",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget library for dynamically creating spinning activity indicators",
+		"uses_anywidget": false,
+		"repo_created": "2020-09-26",
+		"kind": "widget"
 	}
 ]
