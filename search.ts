@@ -72,7 +72,7 @@ let anywidget: Query = {
 let ipywidgets: Query = {
 	title: "ipywidgets",
 	query:
-		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:python -path:/venv -path:/.venv -filename:domwidget.py",
+		"DOMWidgetModel -repo:jupyter-widgets/ipywidgets language:typescript language:javascript -path:/venv -path:/.venv -filename:domwidget.py",
 	exclude_file: new URL("assets/exclude_repos_ipywidgets.txt", import.meta.url),
 };
 
