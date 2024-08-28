@@ -289,3 +289,4 @@ IanMatthewHuff/vscode-jupyter
 radiasoft/jupyter_rs_vtk
 franchesoni/jupyter_segmentation
 deathbeds/jupikchr
+JelmerBot/3d-network-widget
