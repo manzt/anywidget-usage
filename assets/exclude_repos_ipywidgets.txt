@@ -199,3 +199,4 @@ jtpio/ipyp5
 vidartf/jupyter-widget-hello
 AlgoveraAI/jupyterlab_extensions
 fcollonval/ipannotoryous
+piensa/jupyter_mapd_charting
