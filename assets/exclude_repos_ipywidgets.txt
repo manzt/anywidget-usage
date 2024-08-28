@@ -278,3 +278,4 @@ alexhagen/jnc
 rapyuta-robotics/jupyter-amphion
 WeilerWebServices/TensorFlow
 erdc/ipymesh
+paul-shannon/jupyter-widget-demo-nbextension
