@@ -274,3 +274,4 @@ ismms-himc/clustergrammer-widget2-deprecated
 cmudig/GuidedStats
 renefritze/ts-widget-test
 lmkapp/lmk
+alexhagen/jnc
