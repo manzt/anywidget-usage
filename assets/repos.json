@@ -2282,5 +2282,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2018-05-10",
 		"kind": "widget"
+	},
+	{
+		"repo": "janfreyberg/ipyannotations",
+		"url": "https://github.com/janfreyberg/ipyannotations",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Data annotations in python using jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2018-11-16",
+		"kind": "widget"
 	}
 ]
