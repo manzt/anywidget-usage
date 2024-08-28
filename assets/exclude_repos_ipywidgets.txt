@@ -358,3 +358,4 @@ bsc-wdc/jupyter-extension
 PitterPatterPython/qgrid
 miyataken999/perspectivedev
 cui422/perspective
+boyuai/ipyturtle2
