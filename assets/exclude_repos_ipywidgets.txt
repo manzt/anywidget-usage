@@ -310,3 +310,4 @@ trungleduc/ipecharts
 flatsurf/ipymuvue
 imandel/gallavant
 widgetti/ipyaggrid
+ArtificialIntelligenceToolkit/jyrobot-widget
