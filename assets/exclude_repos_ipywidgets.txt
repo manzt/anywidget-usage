@@ -247,3 +247,4 @@ gbrault/ipybus
 Kikehulk/kepler
 g21589/ipyantd
 IBM/mimicri
+microsoft/vscode-jupyter
