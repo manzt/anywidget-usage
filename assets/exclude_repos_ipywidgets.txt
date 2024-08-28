@@ -270,3 +270,4 @@ educational-technology-collective/etc_jupyterlab_distribution
 MaastrichtU-BISS/Vantage6-Researcher-Notebooks
 krishauser/Klampt-jupyter-extension
 regshort/perspective
+ismms-himc/clustergrammer-widget2-deprecated
