@@ -281,3 +281,4 @@ erdc/ipymesh
 paul-shannon/jupyter-widget-demo-nbextension
 bernhard-42/cadquery-vtk-viewer
 hainm/molstarview
+ocoudray/jupyter-drawing-pad
