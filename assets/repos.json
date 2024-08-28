@@ -2212,5 +2212,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-10-19",
 		"kind": "widget"
+	},
+	{
+		"repo": "ricklupton/ipysankeywidget",
+		"url": "https://github.com/ricklupton/ipysankeywidget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "IPython / Jupyter Sankey diagram widget",
+		"uses_anywidget": false,
+		"repo_created": "2016-03-05",
+		"kind": "widget"
 	}
 ]
