@@ -188,3 +188,4 @@ DanielKerrigan/Monomoy
 zer0and1/keplerGl
 manzt/anywidget-usage
 yitzchak/cytoscape-clj
+JMHOO/ipydocker
