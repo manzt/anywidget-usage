@@ -316,3 +316,4 @@ zakandrewking/jupyter-widget-example
 DanielKerrigan/PDPilot
 kazuar/jupyter_britecharts_widget_tutorial
 cabreraalex/widget-svelte-cookiecutter
+MaayanLab/clustergrammer_widget2-old
