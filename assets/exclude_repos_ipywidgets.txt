@@ -348,3 +348,4 @@ krishauser/Klampt
 zakandrewking/escher
 pnnl/crosscheck
 Daniel-Mietchen/docs.bokeh.org
+jupyter-widgets/midicontrols

@@ -2672,5 +2672,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-01-31",
 		"kind": "widget"
+	},
+	{
+		"repo": "jupyter-widgets/midicontrols",
+		"url": "https://github.com/jupyter-widgets/midicontrols",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget for midi controllers.",
+		"uses_anywidget": false,
+		"repo_created": "2018-12-24",
+		"kind": "widget"
 	}
 ]
