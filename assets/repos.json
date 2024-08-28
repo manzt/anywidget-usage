@@ -2022,5 +2022,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-09-20",
 		"kind": "widget"
+	},
+	{
+		"repo": "aurora-opensource/streetscape.gl",
+		"url": "https://github.com/aurora-opensource/streetscape.gl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Visualization framework for autonomy and robotics data encoded in XVIZ",
+		"uses_anywidget": false,
+		"repo_created": "2018-08-01",
+		"kind": "widget"
 	}
 ]
