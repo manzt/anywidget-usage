@@ -301,3 +301,4 @@ vega/vegafusion
 jupyter-widgets/widget-cookiecutter
 vidartf/ipydatawidgets
 LoLab-MSM/pyvipr
+NeuroLang/neurolang_ipywidgets
