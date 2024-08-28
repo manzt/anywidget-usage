@@ -285,3 +285,4 @@ ocoudray/jupyter-drawing-pad
 pondd-project/jupyterlab_kaitai
 jupyter-robotics/ipynao
 paddymul/df_cereal
+IanMatthewHuff/vscode-jupyter
