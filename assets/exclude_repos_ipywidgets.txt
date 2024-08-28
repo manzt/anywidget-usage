@@ -136,3 +136,4 @@ benlau/ipylivebash
 cabreraalex/widget-svelte-example
 srizzo/jupyter-interval-widget
 davidbrochart/ipyurl
+K3D-tools/K3D-jupyter

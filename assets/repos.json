@@ -1812,5 +1812,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-08-02",
 		"kind": "widget"
+	},
+	{
+		"repo": "K3D-tools/K3D-jupyter",
+		"url": "https://github.com/K3D-tools/K3D-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "K3D lets you create 3D plots backed by WebGL with high-level API (surfaces, isosurfaces, voxels, mesh, cloud points, vtk objects, volume renderer, colormaps, etc). The primary aim of K3D-jupyter is to be easy for use as stand alone package like matplotlib, but also to allow interoperation with existing libraries as VTK. ",
+		"uses_anywidget": false,
+		"repo_created": "2015-10-16",
+		"kind": "widget"
 	}
 ]
