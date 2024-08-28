@@ -266,3 +266,4 @@ NLeSC/XAI
 yitzchak/joint-clj
 osscar-org/widget-jsmol
 faustomorales/qsl
+educational-technology-collective/etc_jupyterlab_distribution
