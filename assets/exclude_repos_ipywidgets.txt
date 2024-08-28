@@ -221,3 +221,4 @@ gkvoelkl/ipython-turtle-widget
 canva-public/flourishcharts
 cemyld/plasmidplot
 cad420/voxer
+yparcs/crawlab
