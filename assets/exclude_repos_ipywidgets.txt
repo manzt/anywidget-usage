@@ -309,3 +309,4 @@ N-Coder/ogdf-python-widget
 trungleduc/ipecharts
 flatsurf/ipymuvue
 imandel/gallavant
+widgetti/ipyaggrid
