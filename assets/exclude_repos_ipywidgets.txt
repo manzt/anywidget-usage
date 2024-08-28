@@ -205,3 +205,4 @@ TauferLab/SOMOSPIE
 aurora-opensource/streetscape.gl
 jupyter-widgets/ipydatagrid
 twavv/ipydraw
+VisDunneRight/setmlvis

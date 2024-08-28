@@ -2052,5 +2052,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-04-28",
 		"kind": "widget"
+	},
+	{
+		"repo": "VisDunneRight/setmlvis",
+		"url": "https://github.com/VisDunneRight/setmlvis",
+		"hidive": false,
+		"widget_created": null,
+		"description": "An interactive tool for exploring and comparing object detection models.",
+		"uses_anywidget": false,
+		"repo_created": "2023-03-09",
+		"kind": "widget"
 	}
 ]
