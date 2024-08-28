@@ -355,3 +355,4 @@ databooks/databook
 g2nb/ipyuploads
 lyyiangang/open3d-kinect
 bsc-wdc/jupyter-extension
+PitterPatterPython/qgrid
