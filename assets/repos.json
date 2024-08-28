@@ -2112,5 +2112,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2016-11-13",
 		"kind": "widget"
+	},
+	{
+		"repo": "canva-public/flourishcharts",
+		"url": "https://github.com/canva-public/flourishcharts",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive data visualization Python and R packages for data scientists.",
+		"uses_anywidget": true,
+		"repo_created": "2024-08-28",
+		"kind": "widget"
 	}
 ]
