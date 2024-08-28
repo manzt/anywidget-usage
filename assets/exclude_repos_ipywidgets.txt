@@ -201,3 +201,4 @@ AlgoveraAI/jupyterlab_extensions
 fcollonval/ipannotoryous
 piensa/jupyter_mapd_charting
 JMHOO/nbdocker
+TauferLab/SOMOSPIE
