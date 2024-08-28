@@ -2552,5 +2552,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-04-06",
 		"kind": "widget"
+	},
+	{
+		"repo": "twosigma/beakerx",
+		"url": "https://github.com/twosigma/beakerx",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Beaker Extensions for Jupyter Notebook",
+		"uses_anywidget": false,
+		"repo_created": "2013-12-03",
+		"kind": "widget"
 	}
 ]
