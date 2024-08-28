@@ -223,3 +223,4 @@ cemyld/plasmidplot
 cad420/voxer
 yparcs/crawlab
 DonJayamanne/dump
+mammut-io/brat-widget

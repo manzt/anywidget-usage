@@ -2122,5 +2122,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-08-28",
 		"kind": "widget"
+	},
+	{
+		"repo": "mammut-io/brat-widget",
+		"url": "https://github.com/mammut-io/brat-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupiter Widget library for BRAT visualization and annotation functionality.",
+		"uses_anywidget": false,
+		"repo_created": "2017-06-17",
+		"kind": "widget"
 	}
 ]
