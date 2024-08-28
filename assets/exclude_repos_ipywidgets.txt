@@ -213,3 +213,4 @@ OpenPIV/openpiv-ipywidget
 hbredin/pyannotebook
 atiro/ipyiiif
 jimkraemer/deck.gl
+jupytercalpoly/Jupyter-Bifrost
