@@ -157,3 +157,4 @@ Nic30/jupyter_widget_hwt
 LGSInnovations/jupyter-sigplot
 Mavenomics/MavenWorks
 realitymatrix/open3d_amd64
+glennliu/Open3d_CPU
