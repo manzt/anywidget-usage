@@ -341,3 +341,4 @@ lineupjs/lineup_widget
 jupyter-widgets-contrib/ipycanvas
 ianhi/widget_contextmenu
 uber/manifold
+suvojyoti/uber_manifold
