@@ -305,3 +305,4 @@ NeuroLang/neurolang_ipywidgets
 algrx/algorithmx-python
 H-IAAC/d3vis_ipynb
 davidbrochart/ipyobservable
+N-Coder/ogdf-python-widget
