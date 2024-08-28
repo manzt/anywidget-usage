@@ -209,3 +209,4 @@ VisDunneRight/setmlvis
 stsouko/marvin_jupyter
 sci-visus/ipyvisus
 NicolaZucchia/VisLabTool
+OpenPIV/openpiv-ipywidget
