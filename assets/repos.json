@@ -1852,5 +1852,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-05-24",
 		"kind": "widget"
+	},
+	{
+		"repo": "krassowski/jupyter-locuszoom",
+		"url": "https://github.com/krassowski/jupyter-locuszoom",
+		"hidive": false,
+		"widget_created": null,
+		"description": "LocusZoom in Jupyter notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2023-06-29",
+		"kind": "widget"
 	}
 ]
