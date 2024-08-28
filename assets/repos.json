@@ -2222,5 +2222,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2016-03-05",
 		"kind": "widget"
+	},
+	{
+		"repo": "ywx649999311/vizic",
+		"url": "https://github.com/ywx649999311/vizic",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter-based Interactive Visualization Tool for Astronomical Catalogs",
+		"uses_anywidget": false,
+		"repo_created": "2016-09-27",
+		"kind": "widget"
 	}
 ]

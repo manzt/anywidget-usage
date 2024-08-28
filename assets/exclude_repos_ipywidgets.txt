@@ -250,3 +250,4 @@ IBM/mimicri
 microsoft/vscode-jupyter
 ricklupton/ipysankeywidget
 DGothrek/ipyaggrid
+ywx649999311/vizic
