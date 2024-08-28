@@ -216,3 +216,4 @@ jimkraemer/deck.gl
 jupytercalpoly/Jupyter-Bifrost
 maartenbreddels/ipytrack
 tensorflow/model-analysis
+cmudig/mosaic-profiler
