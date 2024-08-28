@@ -333,3 +333,4 @@ davidbrochart/ipyhtmx
 rbavishi/vizsmith-demo
 CDAT/cdat-notebook-widgets
 b3m2a1/ActiveHTMLWidget
+dave-epstein/ipycanvas_custom
