@@ -1802,5 +1802,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2019-06-26",
 		"kind": "widget"
+	},
+	{
+		"repo": "davidbrochart/ipyurl",
+		"url": "https://github.com/davidbrochart/ipyurl",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter Widget Library for accessing the server's URL",
+		"uses_anywidget": false,
+		"repo_created": "2021-08-02",
+		"kind": "widget"
 	}
 ]
