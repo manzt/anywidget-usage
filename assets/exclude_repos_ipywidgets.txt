@@ -181,3 +181,5 @@ GibbsConsulting/jupyter-plotly-dash-widget
 hms-dbmi/pic-sure-jupyter-widgets
 saraedum/ipyvue-time-series
 afshin/ipylife
+DataCanvasIO/HyperBoard
+aiidalab/aiidalab-widget-graph
