@@ -146,3 +146,5 @@ hakanhp/cahnel
 eric-erki/TensorFlow-Model-Analysis
 davidbrochart/ipyx
 skoppe/spasm-jupyter-widget-example
+olkuka/multiqc_jupyterlab
+yitzchak/kekule-clj
