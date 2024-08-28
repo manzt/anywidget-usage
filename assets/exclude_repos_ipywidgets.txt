@@ -203,3 +203,4 @@ piensa/jupyter_mapd_charting
 JMHOO/nbdocker
 TauferLab/SOMOSPIE
 aurora-opensource/streetscape.gl
+jupyter-widgets/ipydatagrid
