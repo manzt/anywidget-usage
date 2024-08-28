@@ -354,3 +354,4 @@ JelmerBot/2d-network-widget
 databooks/databook
 g2nb/ipyuploads
 lyyiangang/open3d-kinect
+bsc-wdc/jupyter-extension
