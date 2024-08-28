@@ -245,3 +245,4 @@ fred3m/popper-widgets
 pbugnion/ipydataframe
 gbrault/ipybus
 Kikehulk/kepler
+g21589/ipyantd
