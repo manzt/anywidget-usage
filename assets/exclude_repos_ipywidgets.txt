@@ -214,3 +214,4 @@ hbredin/pyannotebook
 atiro/ipyiiif
 jimkraemer/deck.gl
 jupytercalpoly/Jupyter-Bifrost
+maartenbreddels/ipytrack
