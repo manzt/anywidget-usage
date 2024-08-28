@@ -1832,5 +1832,25 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-05-21",
 		"kind": "widget"
+	},
+	{
+		"repo": "olkuka/multiqc_jupyterlab",
+		"url": "https://github.com/olkuka/multiqc_jupyterlab",
+		"hidive": false,
+		"widget_created": null,
+		"description": "MultiQC for JupyterLab extension (Warsaw University of Technology - Bachelor Thesis Project)",
+		"uses_anywidget": false,
+		"repo_created": "2022-01-31",
+		"kind": "widget"
+	},
+	{
+		"repo": "juntyr/ipyfilite",
+		"url": "https://github.com/juntyr/ipyfilite",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Zero-copy file upload widget for Pyodide kernels running in JupyterLite",
+		"uses_anywidget": false,
+		"repo_created": "2023-05-24",
+		"kind": "widget"
 	}
 ]

@@ -148,3 +148,4 @@ davidbrochart/ipyx
 skoppe/spasm-jupyter-widget-example
 olkuka/multiqc_jupyterlab
 yitzchak/kekule-clj
+juntyr/ipyfilite
