@@ -292,3 +292,4 @@ deathbeds/jupikchr
 JelmerBot/3d-network-widget
 maurodiaz7/Cripav-module
 paddymul/widget-ts-cookiecutter-error
+gflujan/tutorials-examples
