@@ -2482,5 +2482,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2022-11-24",
 		"kind": "widget"
+	},
+	{
+		"repo": "deephaven/deephaven-ipywidgets",
+		"url": "https://github.com/deephaven/deephaven-ipywidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Deephaven Community IPython Widget Library",
+		"uses_anywidget": false,
+		"repo_created": "2022-07-21",
+		"kind": "widget"
 	}
 ]
