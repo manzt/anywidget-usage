@@ -2442,5 +2442,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2022-10-23",
 		"kind": "widget"
+	},
+	{
+		"repo": "trungleduc/ipecharts",
+		"url": "https://github.com/trungleduc/ipecharts",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Echarts Jupyter Widget",
+		"uses_anywidget": false,
+		"repo_created": "2023-10-09",
+		"kind": "widget"
 	}
 ]
