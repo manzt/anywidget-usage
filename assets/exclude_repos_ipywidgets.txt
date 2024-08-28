@@ -253,3 +253,4 @@ DGothrek/ipyaggrid
 ywx649999311/vizic
 medialab/ipysigma
 randomunrandom/text_selector
+upsetjs/upsetjs_jupyter_widget
