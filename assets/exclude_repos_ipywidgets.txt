@@ -338,3 +338,4 @@ PriceLab/dora-nbextension
 jupyter-robotics/ipylgbst
 Who8MyLunch/Jupyter_Video_Widget
 lineupjs/lineup_widget
+jupyter-widgets-contrib/ipycanvas
