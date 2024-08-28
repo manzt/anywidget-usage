@@ -345,3 +345,4 @@ suvojyoti/uber_manifold
 XiangchunChen/MovieRecommend
 finos/ipyregulartable
 krishauser/Klampt
+zakandrewking/escher

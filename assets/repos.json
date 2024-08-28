@@ -2652,5 +2652,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2013-10-29",
 		"kind": "widget"
+	},
+	{
+		"repo": "zakandrewking/escher",
+		"url": "https://github.com/zakandrewking/escher",
+		"hidive": false,
+		"widget_created": null,
+		"description": " Build, share, and embed visualizations of metabolic pathways.",
+		"uses_anywidget": false,
+		"repo_created": "2013-01-16",
+		"kind": "widget"
 	}
 ]
