@@ -131,3 +131,4 @@ vidartf/ipyscales
 causalvis/causalvis
 python-bonobo/bonobo
 vidartf/jupyter-vtk-datawidgets
+pytorch/captum

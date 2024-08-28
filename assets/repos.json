@@ -1772,5 +1772,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2016-12-09",
 		"kind": "widget"
+	},
+	{
+		"repo": "pytorch/captum",
+		"url": "https://github.com/pytorch/captum",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Model interpretability and understanding for PyTorch",
+		"uses_anywidget": false,
+		"repo_created": "2019-08-27",
+		"kind": "widget"
 	}
 ]
