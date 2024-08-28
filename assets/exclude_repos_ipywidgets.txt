@@ -329,3 +329,4 @@ twosigma/beakerx
 krismark930/Hubble-Scroll-Trigger-sample
 msoechting/lexcube
 Kareliavs/ModifiedKepler
+davidbrochart/ipyhtmx

@@ -2572,5 +2572,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-03-14",
 		"kind": "widget"
+	},
+	{
+		"repo": "davidbrochart/ipyhtmx",
+		"url": "https://github.com/davidbrochart/ipyhtmx",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Build modern UIs in Jupyter with Python",
+		"uses_anywidget": false,
+		"repo_created": "2022-12-28",
+		"kind": "widget"
 	}
 ]
