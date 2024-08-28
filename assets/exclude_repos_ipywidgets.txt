@@ -233,3 +233,4 @@ gbrault/jupyterpivot
 WorldWideTelescope/pywwt-old-branches
 cytoscape/cytoscape-jupyter-widget
 ocoudray/first-widget
+gramhagen/glitter-ridders
