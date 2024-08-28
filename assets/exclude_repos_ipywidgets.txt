@@ -162,3 +162,4 @@ glennliu/Open3d_CPU
 mnm-team/pyzx-heuristics
 prokia/MIGA
 markytools/strexp
+Konatazz/DeFinder
