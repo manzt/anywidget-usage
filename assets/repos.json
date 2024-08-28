@@ -2422,5 +2422,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2018-11-17",
 		"kind": "widget"
+	},
+	{
+		"repo": "algrx/algorithmx-python",
+		"url": "https://github.com/algrx/algorithmx-python",
+		"hidive": false,
+		"widget_created": null,
+		"description": " A library for network visualization and algorithm simulation. ",
+		"uses_anywidget": false,
+		"repo_created": "2019-01-11",
+		"kind": "widget"
 	}
 ]
