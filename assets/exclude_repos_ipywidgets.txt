@@ -211,3 +211,4 @@ sci-visus/ipyvisus
 NicolaZucchia/VisLabTool
 OpenPIV/openpiv-ipywidget
 hbredin/pyannotebook
+atiro/ipyiiif
