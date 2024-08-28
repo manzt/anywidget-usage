@@ -2512,5 +2512,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2023-11-06",
 		"kind": "widget"
+	},
+	{
+		"repo": "progressivis/ipytablewidgets",
+		"url": "https://github.com/progressivis/ipytablewidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Traitlets and widgets to efficiently data tables (e.g. Pandas DataFrame) using the jupyter notebook",
+		"uses_anywidget": false,
+		"repo_created": "2021-07-07",
+		"kind": "widget"
 	}
 ]
