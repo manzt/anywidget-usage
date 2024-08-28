@@ -228,3 +228,4 @@ pnnl/genx
 manikyabard/DashAI
 exa-analytics/exatomic
 oznome/knownet-widget
+romero-jose/dsvisualizer
