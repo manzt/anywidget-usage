@@ -296,3 +296,4 @@ gflujan/tutorials-examples
 DonJayamanne/vscode-jupyter
 mellesies/thomas-jupyter-widget
 ibdafna/typefox-theia-debug
+jupyterlab/hatch-jupyter-builder
