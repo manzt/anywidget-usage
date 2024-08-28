@@ -2602,5 +2602,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2017-02-26",
 		"kind": "widget"
+	},
+	{
+		"repo": "lineupjs/lineup_widget",
+		"url": "https://github.com/lineupjs/lineup_widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widget wrapper for Lineup.js",
+		"uses_anywidget": false,
+		"repo_created": "2018-01-14",
+		"kind": "widget"
 	}
 ]
