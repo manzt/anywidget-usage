@@ -122,3 +122,4 @@ jupyter-widgets/jupyterlab-sidecar
 davidbrochart/ipyearth
 googlecolab/colab-cdn-widget-manager
 Toepfer-Lab/cobramod
+thomasballinger/observable-jupyter-widget
