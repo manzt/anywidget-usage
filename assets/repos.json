@@ -2092,5 +2092,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-06-18",
 		"kind": "widget"
+	},
+	{
+		"repo": "tensorflow/model-analysis",
+		"url": "https://github.com/tensorflow/model-analysis",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Model analysis tools for TensorFlow",
+		"uses_anywidget": false,
+		"repo_created": "2018-03-23",
+		"kind": "widget"
 	}
 ]
