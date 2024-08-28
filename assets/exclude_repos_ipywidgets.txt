@@ -134,3 +134,4 @@ vidartf/jupyter-vtk-datawidgets
 pytorch/captum
 benlau/ipylivebash
 cabreraalex/widget-svelte-example
+srizzo/jupyter-interval-widget
