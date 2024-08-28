@@ -2622,5 +2622,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2019-07-06",
 		"kind": "widget"
+	},
+	{
+		"repo": "uber/manifold",
+		"url": "https://github.com/uber/manifold",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A model-agnostic visual debugging tool for machine learning",
+		"uses_anywidget": false,
+		"repo_created": "2019-02-08",
+		"kind": "widget"
 	}
 ]
