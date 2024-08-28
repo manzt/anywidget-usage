@@ -163,3 +163,4 @@ mnm-team/pyzx-heuristics
 prokia/MIGA
 markytools/strexp
 Konatazz/DeFinder
+pshakhmin/deepfakes
