@@ -322,3 +322,4 @@ mofojed/dhc-jupyter
 hydro-linz/jupyter_msal_widget
 progressivis/ipytablewidgets
 opentradesolutions/ipyselect2
+davidbrochart/ipylayout

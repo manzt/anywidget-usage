@@ -2522,5 +2522,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-07-07",
 		"kind": "widget"
+	},
+	{
+		"repo": "davidbrochart/ipylayout",
+		"url": "https://github.com/davidbrochart/ipylayout",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Layout Manager Jupyter Widget Library based on GoldenLayout.",
+		"uses_anywidget": false,
+		"repo_created": "2020-05-01",
+		"kind": "widget"
 	}
 ]
