@@ -265,3 +265,4 @@ sfc-aqua/quisp.py
 NLeSC/XAI
 yitzchak/joint-clj
 osscar-org/widget-jsmol
+faustomorales/qsl
