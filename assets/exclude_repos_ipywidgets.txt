@@ -251,3 +251,5 @@ microsoft/vscode-jupyter
 ricklupton/ipysankeywidget
 DGothrek/ipyaggrid
 ywx649999311/vizic
+medialab/ipysigma
+randomunrandom/text_selector

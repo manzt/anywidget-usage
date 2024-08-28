@@ -2232,5 +2232,25 @@
 		"uses_anywidget": false,
 		"repo_created": "2016-09-27",
 		"kind": "widget"
+	},
+	{
+		"repo": "medialab/ipysigma",
+		"url": "https://github.com/medialab/ipysigma",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter widget using sigma.js to render interactive networks.",
+		"uses_anywidget": false,
+		"repo_created": "2018-06-25",
+		"kind": "widget"
+	},
+	{
+		"repo": "randomunrandom/text_selector",
+		"url": "https://github.com/randomunrandom/text_selector",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Custom Jupyter Widget for selecting part of text and assingning it one of tags.",
+		"uses_anywidget": false,
+		"repo_created": "2019-09-15",
+		"kind": "widget"
 	}
 ]
