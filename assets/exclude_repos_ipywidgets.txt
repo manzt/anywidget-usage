@@ -241,3 +241,4 @@ mikheyevav/ziviz
 EarthSystemsSciences/elm
 WorldWideTelescope/pywwt
 TileDB-Inc/TileDB-PyBabylonJS
+fred3m/popper-widgets
