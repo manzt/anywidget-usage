@@ -249,3 +249,4 @@ g21589/ipyantd
 IBM/mimicri
 microsoft/vscode-jupyter
 ricklupton/ipysankeywidget
+DGothrek/ipyaggrid
