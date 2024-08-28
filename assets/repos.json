@@ -1952,5 +1952,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2022-03-03",
 		"kind": "widget"
+	},
+	{
+		"repo": "saraedum/ipyvue-time-series",
+		"url": "https://github.com/saraedum/ipyvue-time-series",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Real-Time Plots in Jupyter",
+		"uses_anywidget": false,
+		"repo_created": "2020-07-03",
+		"kind": "widget"
 	}
 ]
