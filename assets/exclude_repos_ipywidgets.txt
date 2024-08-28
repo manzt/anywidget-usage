@@ -132,3 +132,4 @@ causalvis/causalvis
 python-bonobo/bonobo
 vidartf/jupyter-vtk-datawidgets
 pytorch/captum
+benlau/ipylivebash
