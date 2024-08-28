@@ -191,3 +191,5 @@ yitzchak/cytoscape-clj
 JMHOO/ipydocker
 daquintero/oleo
 PolusAI/jupyterlab-extensions
+andeplane/pyomovi
+EarthSystemsSciences/clmParamEditor
