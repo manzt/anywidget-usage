@@ -283,3 +283,4 @@ bernhard-42/cadquery-vtk-viewer
 hainm/molstarview
 ocoudray/jupyter-drawing-pad
 pondd-project/jupyterlab_kaitai
+jupyter-robotics/ipynao
