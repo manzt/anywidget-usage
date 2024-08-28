@@ -178,3 +178,4 @@ H-IAAC/custom_ipywidgets
 kedarisetti/VideoPlayerWidget
 joaopalmeiro/ipycolorful
 GibbsConsulting/jupyter-plotly-dash-widget
+hms-dbmi/pic-sure-jupyter-widgets
