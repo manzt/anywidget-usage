@@ -294,3 +294,4 @@ maurodiaz7/Cripav-module
 paddymul/widget-ts-cookiecutter-error
 gflujan/tutorials-examples
 DonJayamanne/vscode-jupyter
+mellesies/thomas-jupyter-widget
