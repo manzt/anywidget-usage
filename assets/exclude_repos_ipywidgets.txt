@@ -125,3 +125,4 @@ Toepfer-Lab/cobramod
 thomasballinger/observable-jupyter-widget
 zziyifan/Medical-AI-learning-1
 cylynx/motif.gl
+manzt/ipyfoo
