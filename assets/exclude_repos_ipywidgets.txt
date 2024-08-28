@@ -343,3 +343,4 @@ ianhi/widget_contextmenu
 uber/manifold
 suvojyoti/uber_manifold
 XiangchunChen/MovieRecommend
+finos/ipyregulartable
