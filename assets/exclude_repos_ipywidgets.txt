@@ -185,3 +185,4 @@ DataCanvasIO/HyperBoard
 aiidalab/aiidalab-widget-graph
 izaid/pychartjs
 DanielKerrigan/Monomoy
+zer0and1/keplerGl
