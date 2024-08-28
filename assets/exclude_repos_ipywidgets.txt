@@ -173,3 +173,4 @@ twosigma/beaker-notebook-archive
 vlandham/jupyter_vizard
 jonmmease/ipyplotly
 ORNL/ipyanchorviz
+ideonate/jupyter-containds
