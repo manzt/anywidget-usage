@@ -299,3 +299,4 @@ ibdafna/typefox-theia-debug
 jupyterlab/hatch-jupyter-builder
 vega/vegafusion
 jupyter-widgets/widget-cookiecutter
+vidartf/ipydatawidgets

@@ -2402,5 +2402,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2021-10-01",
 		"kind": "widget"
+	},
+	{
+		"repo": "vidartf/ipydatawidgets",
+		"url": "https://github.com/vidartf/ipydatawidgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A set of widgets to help facilitate reuse of large datasets across widgets",
+		"uses_anywidget": false,
+		"repo_created": "2017-07-31",
+		"kind": "widget"
 	}
 ]
