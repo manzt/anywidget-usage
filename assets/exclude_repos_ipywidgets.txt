@@ -193,3 +193,4 @@ daquintero/oleo
 PolusAI/jupyterlab-extensions
 andeplane/pyomovi
 EarthSystemsSciences/clmParamEditor
+AnthonyAndroulakis/ipyniivue_ts
