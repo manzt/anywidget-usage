@@ -359,3 +359,4 @@ PitterPatterPython/qgrid
 miyataken999/perspectivedev
 cui422/perspective
 boyuai/ipyturtle2
+space928/Shaders-For-Scientific-Visualisation
