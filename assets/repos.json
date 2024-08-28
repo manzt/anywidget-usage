@@ -2382,5 +2382,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2024-03-14",
 		"kind": "widget"
+	},
+	{
+		"repo": "deathbeds/jupikchr",
+		"url": "https://github.com/deathbeds/jupikchr",
+		"hidive": false,
+		"widget_created": null,
+		"description": "pikchr text-based diagrams for JupyterLab, etc.",
+		"uses_anywidget": false,
+		"repo_created": "2022-11-29",
+		"kind": "widget"
 	}
 ]
