@@ -2562,5 +2562,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2013-12-03",
 		"kind": "widget"
+	},
+	{
+		"repo": "msoechting/lexcube",
+		"url": "https://github.com/msoechting/lexcube",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Lexcube: 3D Data Cube Visualization in Jupyter Notebooks",
+		"uses_anywidget": false,
+		"repo_created": "2023-03-14",
+		"kind": "widget"
 	}
 ]

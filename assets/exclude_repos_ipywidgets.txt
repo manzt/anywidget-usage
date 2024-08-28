@@ -327,3 +327,4 @@ TileDB-Inc/TileDB-Jupyter-Plot-Widget
 CERBSim/webgui_jupyter_widgets
 twosigma/beakerx
 krismark930/Hubble-Scroll-Trigger-sample
+msoechting/lexcube
