@@ -212,3 +212,4 @@ NicolaZucchia/VisLabTool
 OpenPIV/openpiv-ipywidget
 hbredin/pyannotebook
 atiro/ipyiiif
+jimkraemer/deck.gl
