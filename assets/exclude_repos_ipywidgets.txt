@@ -183,3 +183,4 @@ saraedum/ipyvue-time-series
 afshin/ipylife
 DataCanvasIO/HyperBoard
 aiidalab/aiidalab-widget-graph
+izaid/pychartjs
