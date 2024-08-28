@@ -2102,5 +2102,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2018-03-23",
 		"kind": "widget"
+	},
+	{
+		"repo": "gkvoelkl/ipython-turtle-widget",
+		"url": "https://github.com/gkvoelkl/ipython-turtle-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Creating Turtle Geometry with IPython ipyturtle",
+		"uses_anywidget": false,
+		"repo_created": "2016-11-13",
+		"kind": "widget"
 	}
 ]
