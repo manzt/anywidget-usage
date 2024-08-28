@@ -303,3 +303,4 @@ vidartf/ipydatawidgets
 LoLab-MSM/pyvipr
 NeuroLang/neurolang_ipywidgets
 algrx/algorithmx-python
+H-IAAC/d3vis_ipynb
