@@ -169,3 +169,4 @@ aws/graph-notebook
 jaybdub/jupyter_clickable_image_widget
 fekad/jupyter-jsmol
 cdr4eelz/serialhub
+twosigma/beaker-notebook-archive
