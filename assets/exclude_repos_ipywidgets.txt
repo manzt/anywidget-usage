@@ -319,3 +319,4 @@ cabreraalex/widget-svelte-cookiecutter
 MaayanLab/clustergrammer_widget2-old
 naoh16/ipyaudioworklet
 mofojed/dhc-jupyter
+hydro-linz/jupyter_msal_widget
