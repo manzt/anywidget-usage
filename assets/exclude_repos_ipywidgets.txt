@@ -198,3 +198,4 @@ scikit-beam/ipywe
 jtpio/ipyp5
 vidartf/jupyter-widget-hello
 AlgoveraAI/jupyterlab_extensions
+fcollonval/ipannotoryous
