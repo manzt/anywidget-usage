@@ -295,3 +295,4 @@ paddymul/widget-ts-cookiecutter-error
 gflujan/tutorials-examples
 DonJayamanne/vscode-jupyter
 mellesies/thomas-jupyter-widget
+ibdafna/typefox-theia-debug
