@@ -90,3 +90,4 @@ Kurzdor/wot-py-autocomplete
 ianhi/ipysegment
 tensorware/ipypandas
 davidbrochart/ipyspin
+mwcraig/ipyevents

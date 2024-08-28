@@ -1482,5 +1482,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-09-26",
 		"kind": "widget"
+	},
+	{
+		"repo": "mwcraig/ipyevents",
+		"url": "https://github.com/mwcraig/ipyevents",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A custom widget for returning mouse and keyboard events to Python",
+		"uses_anywidget": false,
+		"repo_created": "2017-10-28",
+		"kind": "widget"
 	}
 ]
