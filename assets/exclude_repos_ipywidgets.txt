@@ -312,3 +312,4 @@ imandel/gallavant
 widgetti/ipyaggrid
 ArtificialIntelligenceToolkit/jyrobot-widget
 deephaven/deephaven-ipywidgets
+zakandrewking/jupyter-widget-example
