@@ -164,3 +164,4 @@ prokia/MIGA
 markytools/strexp
 Konatazz/DeFinder
 pshakhmin/deepfakes
+ml-research/learning-by-self-explaining
