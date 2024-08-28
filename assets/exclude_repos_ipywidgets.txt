@@ -237,3 +237,4 @@ gramhagen/glitter-ridders
 data-exp-lab/jupyter-widget-transferfunction
 sodennis/ipymonaco
 likr/pyegrenderer
+mikheyevav/ziviz
