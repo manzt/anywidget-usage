@@ -287,3 +287,4 @@ jupyter-robotics/ipynao
 paddymul/df_cereal
 IanMatthewHuff/vscode-jupyter
 radiasoft/jupyter_rs_vtk
+franchesoni/jupyter_segmentation
