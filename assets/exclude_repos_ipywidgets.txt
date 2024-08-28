@@ -300,3 +300,4 @@ jupyterlab/hatch-jupyter-builder
 vega/vegafusion
 jupyter-widgets/widget-cookiecutter
 vidartf/ipydatawidgets
+LoLab-MSM/pyvipr
