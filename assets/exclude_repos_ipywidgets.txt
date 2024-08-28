@@ -298,3 +298,4 @@ mellesies/thomas-jupyter-widget
 ibdafna/typefox-theia-debug
 jupyterlab/hatch-jupyter-builder
 vega/vegafusion
+jupyter-widgets/widget-cookiecutter
