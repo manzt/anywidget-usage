@@ -144,3 +144,5 @@ hakanhp/cs
 hakanhp/pp
 hakanhp/cahnel
 eric-erki/TensorFlow-Model-Analysis
+davidbrochart/ipyx
+skoppe/spasm-jupyter-widget-example
