@@ -262,3 +262,4 @@ cando-developers/molstar-clj
 IBM/finspector
 nicolvisser/speechwidgets
 sfc-aqua/quisp.py
+NLeSC/XAI
