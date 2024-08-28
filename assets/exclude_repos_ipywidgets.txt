@@ -119,3 +119,4 @@ bernhard-42/cad-viewer-widget
 deathbeds/wxyz
 ScienceStacks/jupyter_scisheets_widget
 jupyter-widgets/jupyterlab-sidecar
+davidbrochart/ipyearth
