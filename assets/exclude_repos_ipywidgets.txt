@@ -308,3 +308,4 @@ davidbrochart/ipyobservable
 N-Coder/ogdf-python-widget
 trungleduc/ipecharts
 flatsurf/ipymuvue
+imandel/gallavant
