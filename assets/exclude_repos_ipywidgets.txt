@@ -260,3 +260,4 @@ industrial-optimization-group/desdeo-vis
 janfreyberg/ipyannotations
 cando-developers/molstar-clj
 IBM/finspector
+nicolvisser/speechwidgets
