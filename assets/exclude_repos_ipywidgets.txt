@@ -429,3 +429,4 @@ xdeng7/redwood_open3d_3dreconstruction
 NVIDIA/fsi-samples
 manzt/anywidget
 visa/visa-chart-components
+flatironinstitute/labbox-ephys-widgets-jp
