@@ -2852,5 +2852,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2022-12-20",
 		"kind": "widget"
+	},
+	{
+		"repo": "visa/visa-chart-components",
+		"url": "https://github.com/visa/visa-chart-components",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Visa Chart Components (VCC) is an accessibility focused, framework agnostic set of data experience design systems components for the web. VCC attempts to provide a toolset to enable developers to build equal data experiences for everyone, everywhere.",
+		"uses_anywidget": false,
+		"repo_created": "2020-11-11",
+		"kind": "widget"
 	}
 ]
