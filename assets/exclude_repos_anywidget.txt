@@ -98,3 +98,4 @@ manzt/scipy-2024-anywidget
 gereleth/jupyter-bbox-widget
 osigaud/SimpleMazeMDP
 sujinjian/PPA_UserStudy_Repo
+tBuLi/willing-kingdon-clifford
