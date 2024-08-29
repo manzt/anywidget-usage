@@ -415,3 +415,4 @@ govinda18/ipywidget-bokeh-bug-example
 datalayer-examples/ipywidgets-example
 Ginger123319/CV
 kylebarron/jupyter-widget-echo-testing
+theorm/jupyter-notebook-test-widget
