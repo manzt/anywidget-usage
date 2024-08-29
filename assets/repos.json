@@ -2842,5 +2842,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2019-10-11",
 		"kind": "widget"
+	},
+	{
+		"repo": "jupyrdf/ipyforcegraph",
+		"url": "https://github.com/jupyrdf/ipyforcegraph",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Jupyter Widgets for force-directed graphs",
+		"uses_anywidget": false,
+		"repo_created": "2022-12-20",
+		"kind": "widget"
 	}
 ]
