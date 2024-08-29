@@ -400,3 +400,4 @@ jupyter-widgets-contrib/ipygany
 peytondmurray/custom-ipywidget-example
 sagemathinc/cocalc-widgets
 NVIDIA/clara-viz
+jgosmann/nengo_progress
