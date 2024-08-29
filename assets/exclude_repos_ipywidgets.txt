@@ -377,3 +377,4 @@ gbrault/sqlgrid
 JanLahmann/Qoffee-Maker
 ahmeddhif/slider-package
 saulshanabrook/jupyter_widgets_example
+opencobra/escher
