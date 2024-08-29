@@ -375,3 +375,4 @@ xellgrid/XellGrid
 tardis-sn/tardis-widget
 gbrault/sqlgrid
 JanLahmann/Qoffee-Maker
+ahmeddhif/slider-package
