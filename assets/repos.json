@@ -860,7 +860,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "GLVis Jupyter Widget",
-		"uses_anywidget": false,
+		"uses_anywidget": true,
 		"repo_created": "2019-02-11"
 	},
 	{
