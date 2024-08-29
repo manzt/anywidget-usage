@@ -383,3 +383,4 @@ rohankumardubey/Open3D
 sam-ghosh/ipyaggrid
 mariobuikhuizen/ipygraphql
 nyuvis/jupyter_ui_example
+LeeTZ/beakerx_demo
