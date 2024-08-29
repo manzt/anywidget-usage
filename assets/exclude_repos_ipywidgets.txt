@@ -385,3 +385,4 @@ mariobuikhuizen/ipygraphql
 nyuvis/jupyter_ui_example
 LeeTZ/beakerx_demo
 fakeNetflix/uber-repo-deck.gl
+hansnow/jupyterlab-data-binding
