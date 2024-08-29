@@ -373,3 +373,4 @@ osscar-org/widget-code-input
 cmudig/ProfileInline
 xellgrid/XellGrid
 tardis-sn/tardis-widget
+gbrault/sqlgrid
