@@ -367,3 +367,4 @@ davidbrochart/ipybertin
 LibreTexts/jupyterteam_widget
 bptlab/data-based-process-variant-analysis
 jupyter-widgets/widget-ts-cookiecutter
+yarden-livnat/ipyregulus
