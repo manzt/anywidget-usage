@@ -372,3 +372,4 @@ py5coding/py5jupyter
 osscar-org/widget-code-input
 cmudig/ProfileInline
 xellgrid/XellGrid
+tardis-sn/tardis-widget
