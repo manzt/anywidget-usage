@@ -2912,5 +2912,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-06-17",
 		"kind": "widget"
+	},
+	{
+		"repo": "innovationOUtside/jupyter_anywidget_tesseract_pdfjs",
+		"url": "https://github.com/innovationOUtside/jupyter_anywidget_tesseract_pdfjs",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Tesseract./ pdf.js widget for previewing PDF and extracting text from PDF, image, etc",
+		"uses_anywidget": true,
+		"repo_created": "2024-08-12",
+		"kind": "widget"
 	}
 ]

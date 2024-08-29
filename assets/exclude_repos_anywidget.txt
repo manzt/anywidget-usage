@@ -103,3 +103,4 @@ cmudig/divisi-toolkit
 ozekik/cityview
 aiidateam/aiida-workgraph
 vuepy/vuepy
+innovationOUtside/jupyter_anywidget_tesseract_pdfjs
