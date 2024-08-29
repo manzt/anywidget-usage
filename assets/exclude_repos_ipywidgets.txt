@@ -402,3 +402,4 @@ sagemathinc/cocalc-widgets
 NVIDIA/clara-viz
 jgosmann/nengo_progress
 seahyinghang8/hyperdrive
+zhihanyue/qgridnext
