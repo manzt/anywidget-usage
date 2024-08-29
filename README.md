@@ -28,29 +28,29 @@ publishes the result to GitHub Pages, visualized on
 
 ## Methodology
 
-
-Our analysis of widget packages employs a semi-automated process combining
-daily automated searches with manual verification to maintain an accurate
+Our analysis of widget packages employs a semi-automated process combining daily
+automated searches with manual verification to maintain an accurate
 representation of the widget ecosystem.
 
 ### Process
 
-- **Daily Automated Search**: A daily [GitHub Actions
-workflow](./.github/workflows/update.yml) runs a script (`search.ts`) that
-performs two separate code searches: one for `DOMWidgetModel` (for ipywidgets)
-and another for `anywidget.AnyWidget` (for anywidget). The action updates an
-[issue](https://github.com/manzt/anywidget-stats/issues/4) with unclassified
-repositories that need manual verification.
+- **Daily Automated Search**: A daily
+  [GitHub Actions workflow](./.github/workflows/update.yml) runs a script
+  (`search.ts`) that performs two separate code searches: one for
+  `DOMWidgetModel` (for ipywidgets) and another for `anywidget.AnyWidget` (for
+  anywidget). The action updates an
+  [issue](https://github.com/manzt/anywidget-stats/issues/4) with unclassified
+  repositories that need manual verification.
 
 - **Manual Verification**: A maintainer (Trevor) reviews new search results,
-inspects relevant files. If the discovered repository is a widget project that
-is published to PyPI, the maintainer adds the repository to our dataset with
-`deno task add <repo>`.
+  inspects relevant files. If the discovered repository is a widget project that
+  is published to PyPI, the maintainer adds the repository to our dataset with
+  `deno task add <repo>`.
 
 - **Dataset Maintenance**: Verified repositories are added to our
-[dataset](./assets/repos.json) and respective [ignore
-lists](./assets/exclude_repos_anywidget.txt) to prevent reclassification and
-triage by the automated search.
+  [dataset](./assets/repos.json) and respective
+  [ignore lists](./assets/exclude_repos_anywidget.txt) to prevent
+  reclassification and triage by the automated search.
 
 ### Limitations
 
@@ -65,5 +65,5 @@ increased awareness of anywidget projects shared in our community, which could
 introduce some bias in the discovery of new projects.
 
 **We encourage the community to help improve our dataset** by opening issues for
-missing widget projects, submitting pull requests with additions or
-corrections, and suggesting improvements to our search methodology.
+missing widget projects, submitting pull requests with additions or corrections,
+and suggesting improvements to our search methodology.
