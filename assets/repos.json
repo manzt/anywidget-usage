@@ -2902,5 +2902,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2023-07-27",
 		"kind": "widget"
+	},
+	{
+		"repo": "vuepy/vuepy",
+		"url": "https://github.com/vuepy/vuepy",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Vue.py is a progressive, incrementally-adoptable Python framework for building UI on the IPython Notebook.",
+		"uses_anywidget": true,
+		"repo_created": "2024-06-17",
+		"kind": "widget"
 	}
 ]

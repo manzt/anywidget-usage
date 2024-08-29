@@ -102,3 +102,4 @@ tBuLi/willing-kingdon-clifford
 cmudig/divisi-toolkit
 ozekik/cityview
 aiidateam/aiida-workgraph
+vuepy/vuepy
