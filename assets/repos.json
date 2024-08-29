@@ -2812,5 +2812,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2024-02-03",
 		"kind": "widget"
+	},
+	{
+		"repo": "simularium/nbsv",
+		"url": "https://github.com/simularium/nbsv",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Simularium Viewer Jupyter Widget",
+		"uses_anywidget": false,
+		"repo_created": "2023-04-11",
+		"kind": "widget"
 	}
 ]
