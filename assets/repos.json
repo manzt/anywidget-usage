@@ -2872,5 +2872,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2021-08-04",
 		"kind": "widget"
+	},
+	{
+		"repo": "cmudig/divisi-toolkit",
+		"url": "https://github.com/cmudig/divisi-toolkit",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive Slice Finding",
+		"uses_anywidget": true,
+		"repo_created": "2023-01-25",
+		"kind": "widget"
 	}
 ]
