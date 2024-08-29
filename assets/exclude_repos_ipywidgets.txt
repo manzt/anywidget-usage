@@ -405,3 +405,4 @@ seahyinghang8/hyperdrive
 zhihanyue/qgridnext
 simularium/nbsv
 ianhi/widget_message_speed
+RoboStack/jupyter-amphion
