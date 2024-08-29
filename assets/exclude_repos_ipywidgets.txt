@@ -408,3 +408,4 @@ ianhi/widget_message_speed
 RoboStack/jupyter-amphion
 imandel/vanity
 andyjmc/file-upload-ipywidget
+brifly/py-gamegrid
