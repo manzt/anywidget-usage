@@ -369,3 +369,4 @@ bptlab/data-based-process-variant-analysis
 jupyter-widgets/widget-ts-cookiecutter
 yarden-livnat/ipyregulus
 py5coding/py5jupyter
+osscar-org/widget-code-input
