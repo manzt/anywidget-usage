@@ -381,3 +381,4 @@ opencobra/escher
 aevainc/Open3D
 rohankumardubey/Open3D
 sam-ghosh/ipyaggrid
+mariobuikhuizen/ipygraphql
