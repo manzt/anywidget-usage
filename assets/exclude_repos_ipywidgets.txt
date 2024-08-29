@@ -392,3 +392,4 @@ dataqa/jupyter-annotate
 nathandunn/genomefeatures
 johnhw/canvas_widget
 twosigma/beakerx_widgets
+MAAP-Project/ipycmc-jupyter-extension
