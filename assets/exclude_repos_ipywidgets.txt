@@ -409,3 +409,4 @@ RoboStack/jupyter-amphion
 imandel/vanity
 andyjmc/file-upload-ipywidget
 brifly/py-gamegrid
+matthewturk/jupyterlab_dosbox

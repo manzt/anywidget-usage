@@ -2832,5 +2832,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2017-10-05",
 		"kind": "widget"
+	},
+	{
+		"repo": "matthewturk/jupyterlab_dosbox",
+		"url": "https://github.com/matthewturk/jupyterlab_dosbox",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A jupyterlab extension to run Dosbox emulation in WASM",
+		"uses_anywidget": false,
+		"repo_created": "2019-10-11",
+		"kind": "widget"
 	}
 ]
