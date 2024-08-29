@@ -412,3 +412,4 @@ brifly/py-gamegrid
 matthewturk/jupyterlab_dosbox
 gbrault/ipywidgetvar
 govinda18/ipywidget-bokeh-bug-example
+datalayer-examples/ipywidgets-example
