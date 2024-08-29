@@ -391,3 +391,4 @@ data-exp-lab/jupyterlab_twitch
 dataqa/jupyter-annotate
 nathandunn/genomefeatures
 johnhw/canvas_widget
+twosigma/beakerx_widgets
