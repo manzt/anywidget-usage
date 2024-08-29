@@ -387,3 +387,4 @@ LeeTZ/beakerx_demo
 fakeNetflix/uber-repo-deck.gl
 hansnow/jupyterlab-data-binding
 ZhenshengLee/open3d-fat
+data-exp-lab/jupyterlab_twitch
