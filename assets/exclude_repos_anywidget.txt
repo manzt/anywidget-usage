@@ -95,3 +95,4 @@ manzt/quak
 NickCrews/ibis-widget
 canva-public/flourishcharts
 manzt/scipy-2024-anywidget
+gereleth/jupyter-bbox-widget

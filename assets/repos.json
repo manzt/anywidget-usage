@@ -671,7 +671,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "A Jupyter widget for annotating images with bounding boxes",
-		"uses_anywidget": false,
+		"uses_anywidget": true,
 		"repo_created": "2021-05-30"
 	},
 	{
