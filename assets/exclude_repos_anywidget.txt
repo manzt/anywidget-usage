@@ -105,3 +105,4 @@ aiidateam/aiida-workgraph
 vuepy/vuepy
 innovationOUtside/jupyter_anywidget_tesseract_pdfjs
 apple/tensor-visualizer
+innovationOUtside/jupyter_anywidget_pglite
