@@ -94,3 +94,4 @@ opengeos/leafmap
 manzt/quak
 NickCrews/ibis-widget
 canva-public/flourishcharts
+manzt/scipy-2024-anywidget
