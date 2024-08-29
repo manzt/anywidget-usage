@@ -396,3 +396,4 @@ MAAP-Project/ipycmc-jupyter-extension
 ki-tegg/widget-vue-cookiecutter
 IlyaMichlin/arcgis-1.9.1
 rehno-lindeque/jupyter-javascript-eval-widget
+jupyter-widgets-contrib/ipygany
