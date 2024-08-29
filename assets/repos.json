@@ -2732,5 +2732,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2018-08-02",
 		"kind": "widget"
+	},
+	{
+		"repo": "py5coding/py5jupyter",
+		"url": "https://github.com/py5coding/py5jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "py5 Jupyter tools",
+		"uses_anywidget": false,
+		"repo_created": "2022-05-07",
+		"kind": "widget"
 	}
 ]
