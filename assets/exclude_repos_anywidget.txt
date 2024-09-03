@@ -109,3 +109,4 @@ innovationOUtside/jupyter_anywidget_pglite
 Roy-Kid/anywidget-vite
 ouseful-testing/anywidget-ts-expt
 innovationOUtside/jupyter_anywidget_graphviz
+GLVis/pyglvis
