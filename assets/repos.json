@@ -2952,5 +2952,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-08-13",
 		"kind": "widget"
+	},
+	{
+		"repo": "dvdkouril/chromospyce",
+		"url": "https://github.com/dvdkouril/chromospyce",
+		"hidive": true,
+		"widget_created": null,
+		"description": "Library for visualization of 3D genomic data as a widget",
+		"uses_anywidget": true,
+		"repo_created": "2024-03-05",
+		"kind": "widget"
 	}
 ]
