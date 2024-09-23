@@ -111,3 +111,17 @@ ouseful-testing/anywidget-ts-expt
 innovationOUtside/jupyter_anywidget_graphviz
 GLVis/pyglvis
 dvdkouril/chromospyce
+x-atlas-consortia/hra-jupyter-widgets
+simonwarchol/widget
+DanielKerrigan/saefarer
+benlau/jscaffold
+pyiron/pyiron-xyflow
+metaboulie/marimo-flow
+shaielc/jupyter-utility-widgets
+chrisbc/solvis-jupyterlab
+superstar54/aiidalab-qe-hp
+ollyhensby/anywidget-demo
+mwouts/itables
+Lifemap-ToL/pylifemap
+matt-do-it/push
+GNS-Science/nzshm-rupture-widget

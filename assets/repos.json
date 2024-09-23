@@ -2962,5 +2962,45 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-03-05",
 		"kind": "widget"
+	},
+	{
+		"repo": "x-atlas-consortia/hra-jupyter-widgets",
+		"url": "https://github.com/x-atlas-consortia/hra-jupyter-widgets",
+		"hidive": false,
+		"widget_created": null,
+		"description": "HRA Web Components wrapped as Jupyter Widgets",
+		"uses_anywidget": true,
+		"repo_created": "2024-08-05",
+		"kind": "widget"
+	},
+	{
+		"repo": "shaielc/jupyter-utility-widgets",
+		"url": "https://github.com/shaielc/jupyter-utility-widgets",
+		"hidive": false,
+		"widget_created": "2024-09-05",
+		"description": "Convenient Jupyter Widget utilities",
+		"uses_anywidget": true,
+		"repo_created": "2022-12-01",
+		"kind": "widget"
+	},
+	{
+		"repo": "mwouts/itables",
+		"url": "https://github.com/mwouts/itables",
+		"hidive": false,
+		"widget_created": "2024-09-12",
+		"description": "Pandas DataFrames as Interactive DataTables",
+		"uses_anywidget": true,
+		"repo_created": "2019-04-15",
+		"kind": "widget"
+	},
+	{
+		"repo": "GNS-Science/nzshm-rupture-widget",
+		"url": "https://github.com/GNS-Science/nzshm-rupture-widget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter Notebook widget for displaying 3D data on a map.",
+		"uses_anywidget": true,
+		"repo_created": "2024-09-09",
+		"kind": "widget"
 	}
 ]
