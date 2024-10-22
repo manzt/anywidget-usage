@@ -3012,5 +3012,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-10-08",
 		"kind": "widget"
+	},
+	{
+		"repo": "tiga1231/dimbridge-jupyter",
+		"url": "https://github.com/tiga1231/dimbridge-jupyter",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A Jupyter lab widget for interpreting visual patterns in dimensionality reduction plots",
+		"uses_anywidget": true,
+		"repo_created": "2024-09-01",
+		"kind": "widget"
 	}
 ]

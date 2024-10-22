@@ -126,3 +126,4 @@ Lifemap-ToL/pylifemap
 matt-do-it/push
 GNS-Science/nzshm-rupture-widget
 kolibril13/ipydrop
+tiga1231/dimbridge-jupyter
