@@ -3022,5 +3022,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2024-09-01",
 		"kind": "widget"
+	},
+	{
+		"repo": "pyiron/pyironFlow",
+		"url": "https://github.com/pyiron/pyironFlow",
+		"hidive": false,
+		"widget_created": null,
+		"description": "react xyflow for pyiron",
+		"uses_anywidget": true,
+		"repo_created": "2024-08-05",
+		"kind": "widget"
 	}
 ]
