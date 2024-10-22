@@ -14,6 +14,14 @@ let RepoSchema = z.object({
 	kind: z.enum(["widget", "framework"]).optional(),
 });
 
+let GithubRepo = z.object({
+	full_name: z.string(),
+	description: z.string().nullable(),
+	stargazers_count: z.number(),
+	created_at: z.string(),
+	pushed_at: z.string(),
+});
+
 export async function fetch_repo_info(
 	repo: string,
 	options: { token?: string } = {},
@@ -31,7 +39,7 @@ export async function fetch_repo_info(
 	let base = new URL("https://api.github.com/repos/");
 	let url = new URL(repo, base);
 	let response = await fetch(url, { headers });
-	let json = await response.json();
+	let json = GithubRepo.parse(await response.json());
 
 	return {
 		repo: json.full_name,

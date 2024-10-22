@@ -7,7 +7,8 @@
 		"add": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A add.ts",
 		"search": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts",
 		"search-anywidget": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts anywidget",
-		"search-ipywidgets": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts ipywidgets"
+		"search-ipywidgets": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A search.ts ipywidgets",
+		"stars": "GITHUB_TOKEN=$(gh auth token) deno run --unstable-temporal -A stars.ts"
 	},
 	"lint": {
 		"rules": {

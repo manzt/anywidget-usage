@@ -7,8 +7,13 @@ let partial_repos = await Deno.readTextFile(url).then(JSON.parse);
 
 let results = [];
 for (let item of partial_repos) {
-	let info = await fetch_repo_info(item.repo);
-	results.push({ ...info, ...item });
+	try {
+		let info = await fetch_repo_info(item.repo);
+		results.push({ ...info, ...item });
+	} catch (e) {
+		console.error("Error fetching", item.repo);
+		console.error(e);
+	}
 	await wait(300);
 }
 
