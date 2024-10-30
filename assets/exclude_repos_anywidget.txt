@@ -131,3 +131,4 @@ tiga1231/dimbridge-jupyter
 pyiron/pyironFlow
 Kanaries/pygwalker
 john-guerra/navio-jupyter
+innovationOUtside/jupyter_anywidget_window_ai

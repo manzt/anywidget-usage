@@ -3052,5 +3052,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2019-03-30",
 		"kind": "widget"
+	},
+	{
+		"repo": "innovationOUtside/jupyter_anywidget_window_ai",
+		"url": "https://github.com/innovationOUtside/jupyter_anywidget_window_ai",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Experiment in using Chrome window.ai API via anywidget",
+		"uses_anywidget": true,
+		"repo_created": "2024-09-01",
+		"kind": "widget"
 	}
 ]
