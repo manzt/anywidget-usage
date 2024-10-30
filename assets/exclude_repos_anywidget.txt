@@ -132,3 +132,7 @@ pyiron/pyironFlow
 Kanaries/pygwalker
 john-guerra/navio-jupyter
 innovationOUtside/jupyter_anywidget_window_ai
+Haleshot/marimo-tutorials
+kolibril13/bpy-gallery
+Erikzhou2021/Tweet_browser
+FMurray/cookbook_config
