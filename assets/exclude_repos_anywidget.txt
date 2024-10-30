@@ -24,6 +24,7 @@ benbovy/xarray-fancy-repr
 davidbrochart/ipyscore
 jtpio/ipyclipboard
 eodaGmbH/py-maplibregl
+eoda-dev/py-maplibregl
 kolibril13/ipymafs
 niivue/ipyniivue
 seidlr/ipyreactplayer
