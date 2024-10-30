@@ -441,3 +441,5 @@ wszhs/csmt
 joey-fossa/kepler.gl
 jlunder/qpo-bench
 mjsutcliffe99/ParamZX
+aimtyaem/SpaceExplorer
+metal-gabe/tutorials-examples
