@@ -129,3 +129,4 @@ kolibril13/ipydrop
 tiga1231/dimbridge-jupyter
 pyiron/pyironFlow
 Kanaries/pygwalker
+john-guerra/navio-jupyter
