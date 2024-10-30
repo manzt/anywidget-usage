@@ -432,3 +432,12 @@ visa/visa-chart-components
 flatironinstitute/labbox-ephys-widgets-jp
 junyuanjun/subplex_ml
 ianhi/jupyter-microscopy
+voila-dashboards/voila
+NicolaZucchia/WorkingVisLabTool
+progressivis/ipyprogressivis
+Roaring0202/Perspective
+wszhs/Cyber-Security-ML-Toolbox
+wszhs/csmt
+joey-fossa/kepler.gl
+jlunder/qpo-bench
+mjsutcliffe99/ParamZX
