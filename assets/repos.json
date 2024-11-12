@@ -1509,7 +1509,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "The interactive graphing library for Python",
-		"uses_anywidget": false,
+		"uses_anywidget": true,
 		"repo_created": "2013-11-21",
 		"kind": "widget"
 	},
