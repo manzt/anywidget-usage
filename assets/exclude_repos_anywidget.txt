@@ -137,3 +137,6 @@ kolibril13/bpy-gallery
 Erikzhou2021/Tweet_browser
 FMurray/cookbook_config
 plotly/plotly.py
+gosling-lang/gosling-widget
+gosling-lang/gos
+gosling-lang/gos
