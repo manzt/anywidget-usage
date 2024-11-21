@@ -2399,7 +2399,7 @@
 		"hidive": false,
 		"widget_created": null,
 		"description": "Serverside scaling for Vega and Altair visualizations",
-		"uses_anywidget": false,
+		"uses_anywidget": true,
 		"repo_created": "2021-10-01",
 		"kind": "widget"
 	},

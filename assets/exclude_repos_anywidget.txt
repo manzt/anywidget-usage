@@ -139,4 +139,4 @@ FMurray/cookbook_config
 plotly/plotly.py
 gosling-lang/gosling-widget
 gosling-lang/gos
-gosling-lang/gos
+vega/vegafusion
