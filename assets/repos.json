@@ -3072,5 +3072,15 @@
 		"uses_anywidget": true,
 		"repo_created": "2021-07-20",
 		"kind": "widget"
+	},
+	{
+		"repo": "gee-community/geemap",
+		"url": "https://github.com/gee-community/geemap",
+		"hidive": false,
+		"widget_created": "2024-11-16",
+		"description": "A Python package for interactive geospatial analysis and visualization with Google Earth Engine.",
+		"uses_anywidget": true,
+		"repo_created": "2020-03-08",
+		"kind": "widget"
 	}
 ]
