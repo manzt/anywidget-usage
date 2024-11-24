@@ -446,3 +446,4 @@ metal-gabe/tutorials-examples
 satotake/pandas-sanddance
 AdLucem/local-explainability-project
 Asher-1/ACloudViewer
+twosigma/beakerx_tabledisplay
