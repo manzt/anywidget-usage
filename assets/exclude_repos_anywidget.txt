@@ -147,3 +147,6 @@ gee-community/geemap
 pipefunc/graphviz-anywidget
 cmudig/Texture
 innovationOUtside/jupyter_anywidget_pandoc
+geo-engine/workflow-editor
+1lutz/workflow-editor
+keller-mark/with-html
