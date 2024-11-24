@@ -449,3 +449,4 @@ Asher-1/ACloudViewer
 twosigma/beakerx_tabledisplay
 shoirathi/is310-coding-assignments
 datarho/iturtle
+ep-infosec/31_uber_manifold
