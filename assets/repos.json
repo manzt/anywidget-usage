@@ -3142,5 +3142,15 @@
 		"uses_anywidget": false,
 		"repo_created": "2020-05-07",
 		"kind": "widget"
+	},
+	{
+		"repo": "datarho/iturtle",
+		"url": "https://github.com/datarho/iturtle",
+		"hidive": false,
+		"widget_created": null,
+		"description": "A custom Jupyter widget for interactive turtle.",
+		"uses_anywidget": false,
+		"repo_created": "2023-05-04",
+		"kind": "widget"
 	}
 ]
