@@ -146,3 +146,4 @@ juliusmittler/pyironflow_gui
 gee-community/geemap
 pipefunc/graphviz-anywidget
 cmudig/Texture
+innovationOUtside/jupyter_anywidget_pandoc
