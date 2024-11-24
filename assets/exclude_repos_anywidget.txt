@@ -144,3 +144,5 @@ twitwi/trail-tools
 Tara-Lakshmipathy/pyiron_workflow_gui
 juliusmittler/pyironflow_gui
 gee-community/geemap
+pipefunc/graphviz-anywidget
+cmudig/Texture

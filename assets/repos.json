@@ -3082,5 +3082,25 @@
 		"uses_anywidget": true,
 		"repo_created": "2020-03-08",
 		"kind": "widget"
+	},
+	{
+		"repo": "pipefunc/graphviz-anywidget",
+		"url": "https://github.com/pipefunc/graphviz-anywidget",
+		"hidive": false,
+		"widget_created": null,
+		"description": "Interactive Graphviz visualization widget for Jupyter notebooks using anywidget using Graphviz as Wasm, d3-graphviz, and graphvizsvg",
+		"uses_anywidget": true,
+		"repo_created": "2024-11-22",
+		"kind": "widget"
+	},
+	{
+		"repo": "cmudig/Texture",
+		"url": "https://github.com/cmudig/Texture",
+		"hidive": false,
+		"widget_created": "2024-11-20",
+		"description": "Visualize your text data with structured attributes",
+		"uses_anywidget": true,
+		"repo_created": "2023-09-13",
+		"kind": "widget"
 	}
 ]
