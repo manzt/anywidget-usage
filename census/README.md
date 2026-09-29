@@ -4,21 +4,19 @@ The compact Observable attachment is [assets/widgets.json](../assets/widgets.jso
 
 The original assets/repos.json is preserved. The enriched repository view keeps every original row, including unavailable projects. New discovery works at Python distribution level: these counts must not be added directly to the old repository count. Repository redirects, package aliases, monorepos, demos, and forks require explicit decisions.
 
-Run with Python 3.12 or newer. Install only the collector's dependencies; candidate packages are never installed or executed.
+Run with Python 3.12 or newer. `uv run` resolves the locked project dependencies; candidate packages are never installed or executed.
 
 ```sh
-uv venv --python 3.12
-uv pip install --python .venv/bin/python -r census/requirements.txt
-.venv/bin/python census/discover_index.py
-.venv/bin/python census/collect.py discover
-.venv/bin/python census/collect.py metadata
-.venv/bin/python census/resolve_repositories.py
-.venv/bin/python census/reconcile.py
-.venv/bin/python census/collect.py metadata
-.venv/bin/python census/inspect_artifacts.py
-.venv/bin/python census/history.py
-.venv/bin/python census/build.py
-.venv/bin/python -m unittest discover -s census -p 'test_*.py'
+uv run python census/discover_index.py
+uv run python census/collect.py discover
+uv run python census/collect.py metadata
+uv run python census/resolve_repositories.py
+uv run python census/reconcile.py
+uv run python census/collect.py metadata
+uv run python census/inspect_artifacts.py
+uv run python census/history.py
+uv run python census/build.py
+uv run python -m unittest discover -s census -p 'test_*.py'
 ```
 
 The collector uses the existing authenticated GitHub CLI for read-only API access. The token remains in memory and is sent only to api.github.com. Search results for private repositories are excluded from discovery. Source response caches stay local and are ignored by git. No workflows, issues, repositories, or external services are modified by these commands.
