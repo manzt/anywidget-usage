@@ -69,15 +69,6 @@ class WidgetPackage(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
         return _date(self.first_widget_observed_by)
 
 
-class RepositoryIdentity(msgspec.Struct, frozen=True):
-    status: int | None = None
-    full_name: str | None = None
-    html_url: str | None = None
-    stargazers_count: int = 0
-    created_at: str | None = None
-    pushed_at: str | None = None
-
-
 class WidgetRepository(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
     repo: str
     url: str | None

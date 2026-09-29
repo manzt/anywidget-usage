@@ -9,7 +9,7 @@ from pathlib import Path
 import msgspec
 import polars as pl
 
-from census.model import RepositoryIdentity, WidgetPackage, WidgetRepository
+from census.model import WidgetPackage, WidgetRepository
 
 SNAPSHOT_DATE = date(2026, 9, 29)
 ANYWIDGET_LAUNCH = date(2023, 1, 18)
@@ -95,56 +95,6 @@ def implementation_totals(widgets: pl.DataFrame) -> pl.DataFrame:
         .with_columns(pl.col("count").cast(pl.Int32))
         .sort("implementation")
     )
-
-
-def build_repositories(root: Path, widgets: pl.DataFrame) -> list[WidgetRepository]:
-    """Collapse local collection evidence to canonical GitHub repositories."""
-    path = root / "census/2026-09-29/repository-identities.json"
-    decoder = msgspec.json.Decoder(dict[str, RepositoryIdentity])
-    identities = decoder.decode(path.read_bytes())
-    by_repo: dict[str, dict] = {}
-    for widget in widgets.to_dicts():
-        for alias in widget["repositories"]:
-            metadata = identities.get(alias.lower())
-            if (
-                metadata is None
-                or metadata.status != 200
-                or not metadata.full_name
-                or not metadata.created_at
-            ):
-                continue
-            key = metadata.full_name.lower()
-            entry = by_repo.setdefault(
-                key,
-                {
-                    "repo": metadata.full_name,
-                    "url": metadata.html_url,
-                    "stars": metadata.stargazers_count,
-                    "created": date.fromisoformat(metadata.created_at[:10]),
-                    "last_push": date.fromisoformat(metadata.pushed_at[:10])
-                    if metadata.pushed_at
-                    else None,
-                    "has_anywidget": False,
-                },
-            )
-            entry["has_anywidget"] |= (
-                "anywidget" in widget["current_implementation_signals"]
-            )
-
-    frame = (
-        pl.from_dicts(list(by_repo.values()))
-        .with_columns(
-            pl.col("stars").cast(pl.Int32),
-            pl.when("has_anywidget")
-            .then(pl.lit("anywidget"))
-            .otherwise(pl.lit("without anywidget"))
-            .alias("implementation"),
-            pl.col("repo").str.split("/").list.last().alias("name"),
-        )
-        .drop("has_anywidget")
-        .sort("stars", descending=True)
-    )
-    return msgspec.convert(frame.to_dicts(), type=list[WidgetRepository])
 
 
 def load_widget_repositories(root: Path) -> list[WidgetRepository]:
