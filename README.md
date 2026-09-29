@@ -12,7 +12,7 @@ uv run marimo edit widget_census.py
 
 The notebook loads [assets/widgets.json](./assets/widgets.json) and [assets/repositories.json](./assets/repositories.json) through the typed models and transforms under `census/`.
 
-The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json), which is generated from the typed repository snapshot.
+The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json), a repository-level projection of the widget snapshot.
 
 ## Validate the snapshot
 

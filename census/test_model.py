@@ -34,10 +34,10 @@ def test_unclassified_current_releases_are_excluded():
 
 
 def test_repository_snapshot_decodes_to_domain_records():
-    assert len(REPOSITORIES) == 327
+    assert len(REPOSITORIES) == 607
     assert isinstance(REPOSITORIES[0], WidgetRepository)
     frame = repository_frame(REPOSITORIES)
-    assert frame.height == 251
+    assert frame.height == 538
     assert frame.schema["created"] == pl.Date
 
 
