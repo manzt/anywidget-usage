@@ -109,7 +109,7 @@ def repository_frame(repositories: Sequence[WidgetRepository]) -> pl.DataFrame:
         .filter("in_package_census")
         .drop("in_package_census")
         .with_columns(
-            pl.col("created").str.to_date(),
+            pl.col("created").str.to_date(strict=False),
             pl.col("last_push").str.to_date(),
         )
     )

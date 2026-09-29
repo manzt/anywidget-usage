@@ -74,7 +74,7 @@ class WidgetRepository(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
     url: str | None
     description: str | None
     stars: int
-    created: date
+    created: date | None
     last_push: date | None
     implementation: RepositoryImplementation
     name: str
@@ -82,3 +82,4 @@ class WidgetRepository(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
     widget_created: date | None
     kind: str | None
     in_package_census: bool
+    packages: tuple[str, ...]
