@@ -1,13 +1,3 @@
-# /// script
-# dependencies = [
-#     "marimo",
-#     "msgspec==0.22.0",
-#     "polars==1.44.2",
-#     "pyobsplot==0.5.4",
-# ]
-# requires-python = ">=3.14"
-# ///
-
 import marimo
 
 __generated_with = "0.25.0"
