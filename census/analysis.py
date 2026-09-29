@@ -104,9 +104,12 @@ def load_widget_repositories(root: Path) -> list[WidgetRepository]:
 
 
 def repository_frame(repositories: Sequence[WidgetRepository]) -> pl.DataFrame:
-    return pl.from_dicts(
-        [msgspec.to_builtins(repo) for repo in repositories]
-    ).with_columns(
-        pl.col("created").str.to_date(),
-        pl.col("last_push").str.to_date(),
+    return (
+        pl.from_dicts([msgspec.to_builtins(repo) for repo in repositories])
+        .filter("in_package_census")
+        .drop("in_package_census")
+        .with_columns(
+            pl.col("created").str.to_date(),
+            pl.col("last_push").str.to_date(),
+        )
     )

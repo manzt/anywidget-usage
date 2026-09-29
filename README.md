@@ -2,7 +2,7 @@
 
 An evidence-backed census of custom Jupyter widget packages and their adoption of anywidget.
 
-The current snapshot contains 628 package candidates collected through September 29, 2026. Published package artifacts are inspected statically; candidate packages are never installed or executed. See [CONTEXT.md](./CONTEXT.md) for the domain language and [census/README.md](./census/README.md) for collection details and limitations.
+The current snapshot contains 628 package candidates collected through September 29, 2026. See [census/README.md](./census/README.md) for the methodology and update process.
 
 ## Explore the snapshot
 
@@ -10,19 +10,14 @@ The current snapshot contains 628 package candidates collected through September
 uv run marimo edit widget_census.py
 ```
 
-The notebook decodes [assets/widgets.json](./assets/widgets.json) and [assets/repositories.json](./assets/repositories.json) into typed `msgspec.Struct` records and uses the reusable transforms in [census/analysis.py](./census/analysis.py). It does not run network collection when opened.
+The notebook loads [assets/widgets.json](./assets/widgets.json) and [assets/repositories.json](./assets/repositories.json) through the typed models and transforms under `census/`.
 
-The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json). That 326-row payload is committed under `assets/` and deployed unchanged as a compatibility endpoint; rebuilding the Python census does not rewrite it.
+The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json), which is generated from the typed repository snapshot.
 
 ## Validate the snapshot
 
 ```sh
-uv run python -m unittest discover -s census -p 'test_*.py'
+uv run python -m census
+uv run --group test pytest
 uv run marimo check widget_census.py
 ```
-
-The repository records the latest accepted state. [census/README.md](./census/README.md) documents how that state was collected and how its dates should be interpreted.
-
-## Legacy inventory
-
-[assets/repos.json](./assets/repos.json) and the exclusion lists are the preserved inputs from the repository-level workflow that produced the original Observable notebook. The retired Deno collector has been removed. The Python census uses the inventory for discovery and reconciliation; repository counts from it are not directly comparable to package counts in the current census.
