@@ -29,6 +29,11 @@ class MigrationReview(StrEnum):
     COMPONENT_TRANSITION = "component_transition_supported"
 
 
+class RepositoryImplementation(StrEnum):
+    ANYWIDGET = "anywidget"
+    WITHOUT_ANYWIDGET = "without anywidget"
+
+
 def _date(value: str) -> date | None:
     return date.fromisoformat(value[:10]) if value else None
 
@@ -71,3 +76,13 @@ class RepositoryIdentity(msgspec.Struct, frozen=True):
     stargazers_count: int = 0
     created_at: str | None = None
     pushed_at: str | None = None
+
+
+class WidgetRepository(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
+    repo: str
+    url: str | None
+    stars: int
+    created: date
+    last_push: date | None
+    implementation: RepositoryImplementation
+    name: str

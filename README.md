@@ -10,14 +10,14 @@ The current snapshot contains 628 package candidates collected through September
 uv run marimo edit widget_census.py
 ```
 
-The notebook decodes [assets/widgets.json](./assets/widgets.json) into typed `msgspec.Struct` records and uses the reusable transforms in [census/analysis.py](./census/analysis.py). It does not run network collection when opened.
+The notebook decodes [assets/widgets.json](./assets/widgets.json) and [assets/repositories.json](./assets/repositories.json) into typed `msgspec.Struct` records and uses the reusable transforms in [census/analysis.py](./census/analysis.py). It does not run network collection when opened.
 
 The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json). That 326-row payload is committed under `assets/` and deployed unchanged as a compatibility endpoint; rebuilding the Python census does not rewrite it.
 
 ## Rebuild derived outputs
 
 ```sh
-uv run python census/build.py
+uv run python -m census.build
 uv run python -m unittest discover -s census -p 'test_*.py'
 ```
 

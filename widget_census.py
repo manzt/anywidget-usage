@@ -1,3 +1,12 @@
+# /// script
+# dependencies = [
+#     "marimo",
+#     "polars==1.44.2",
+#     "pyobsplot==0.5.4",
+# ]
+# requires-python = ">=3.14"
+# ///
+
 import marimo
 
 __generated_with = "0.25.0"
@@ -24,9 +33,10 @@ def _(mo):
         classify_widgets,
         cumulative_counts,
         implementation_totals as count_implementations,
-        load_repositories,
         load_widget_packages,
+        load_widget_repositories,
         package_frame,
+        repository_frame,
     )
 
     root = mo.notebook_dir()
@@ -43,8 +53,9 @@ def _(mo):
         classify_widgets,
         count_implementations,
         cumulative_counts,
-        load_repositories,
+        load_widget_repositories,
         pl,
+        repository_frame,
         root,
         widgets,
     )
@@ -182,8 +193,9 @@ def _(
 
 
 @app.cell(hide_code=True)
-def _(load_repositories, plot_widgets, root):
-    repository_widgets = load_repositories(root, plot_widgets)
+def _(load_widget_repositories, repository_frame, root):
+    repositories = load_widget_repositories(root)
+    repository_widgets = repository_frame(repositories)
     None
     return (repository_widgets,)
 

@@ -1,6 +1,6 @@
-This directory contains a reproducible enrichment of the legacy widget inventory. Start with [the snapshot report](2026-09-29/report.md) or open [the review table](2026-09-29/review.html) in a browser.
+This directory contains the reproducible collection and analysis code for the widget census.
 
-The compact Observable attachment is [assets/widgets.json](../assets/widgets.json). Attach it to a notebook and load it with `FileAttachment("widgets.json").json()`. It preserves the 628 source-supported candidate records, analysis dates, review status, and artifact URLs. `build.py` regenerates this export. Large collection intermediates, per-artifact evidence, historical inspection details, and the full review HTML/JSON/CSV remain on disk but are ignored by version control; the compact export, smaller analysis tables, source scripts, and review decisions remain tracked.
+The durable outputs are [assets/widgets.json](../assets/widgets.json) for packages and [assets/repositories.json](../assets/repositories.json) for repositories. `build.py` regenerates both. Dated collection responses, evidence, review tables, and reports remain on disk and are ignored by version control.
 
 The original assets/repos.json is preserved. The enriched repository view keeps every original row, including unavailable projects. New discovery works at Python distribution level: these counts must not be added directly to the old repository count. Repository redirects, package aliases, monorepos, demos, and forks require explicit decisions.
 
@@ -15,7 +15,7 @@ uv run python census/reconcile.py
 uv run python census/collect.py metadata
 uv run python census/inspect_artifacts.py
 uv run python census/history.py
-uv run python census/build.py
+uv run python -m census.build
 uv run python -m unittest discover -s census -p 'test_*.py'
 ```
 
