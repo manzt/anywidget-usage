@@ -7,7 +7,7 @@ The current snapshot contains 628 package candidates collected through September
 ## Explore the snapshot
 
 ```sh
-uv run marimo edit widget_census.py
+uv run marimo edit atlas.py
 ```
 
 The notebook loads [assets/widgets.json](./assets/widgets.json) and [assets/repositories.json](./assets/repositories.json) through the typed models and transforms under `census/`.
@@ -19,5 +19,5 @@ The original Observable notebook continues to load [repos-complete.json](https:/
 ```sh
 uv run python -m census
 uv run --group test pytest
-uv run marimo check widget_census.py
+uv run marimo check atlas.py
 ```
