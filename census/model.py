@@ -72,8 +72,13 @@ class WidgetPackage(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
 class WidgetRepository(msgspec.Struct, frozen=True, forbid_unknown_fields=True):
     repo: str
     url: str | None
+    description: str | None
     stars: int
     created: date
     last_push: date | None
     implementation: RepositoryImplementation
     name: str
+    hidive: bool
+    widget_created: date | None
+    kind: str | None
+    in_package_census: bool

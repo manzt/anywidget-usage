@@ -1,6 +1,8 @@
 import json
 import pathlib
-import unittest
+
+from census.__main__ import compatibility_record
+from census.analysis import load_widget_repositories
 
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -16,12 +18,12 @@ REQUIRED_FIELDS = {
 }
 
 
-class LegacyPagesContractTests(unittest.TestCase):
-    def test_observable_payload_remains_compatible(self):
-        rows = json.loads((ROOT / "assets/repos-complete.json").read_text())
-        self.assertEqual(len(rows), 326)
-        self.assertTrue(all(REQUIRED_FIELDS <= row.keys() for row in rows))
-
-
-if __name__ == "__main__":
-    unittest.main()
+def test_observable_payload_remains_compatible():
+    rows = json.loads((ROOT / "assets/repos-complete.json").read_text())
+    expected = [
+        compatibility_record(repository)
+        for repository in load_widget_repositories(ROOT)
+    ]
+    assert rows == expected
+    assert len(rows) > 326
+    assert all(REQUIRED_FIELDS <= row.keys() for row in rows)

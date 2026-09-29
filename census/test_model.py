@@ -1,5 +1,4 @@
 import pathlib
-import unittest
 
 import polars as pl
 
@@ -14,44 +13,37 @@ from census.analysis import (
 from census.model import ImplementationSignal, WidgetPackage, WidgetRepository
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+PACKAGES = load_widget_packages(ROOT)
+REPOSITORIES = load_widget_repositories(ROOT)
+CLASSIFIED = classify_widgets(package_frame(PACKAGES))
 
 
-class SnapshotModelTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.packages = load_widget_packages(ROOT)
-        cls.repositories = load_widget_repositories(ROOT)
-        cls.classified = classify_widgets(package_frame(cls.packages))
-
-    def test_snapshot_decodes_to_domain_records(self):
-        self.assertEqual(len(self.packages), 628)
-        self.assertIsInstance(self.packages[0], WidgetPackage)
-        self.assertTrue(
-            all(
-                isinstance(signal, ImplementationSignal)
-                for package in self.packages
-                for signal in package.current_implementation_signals
-            )
-        )
-
-    def test_unclassified_current_releases_are_excluded(self):
-        self.assertEqual(self.classified.height, 614)
-        self.assertNotIn(
-            "unclassified", self.classified.get_column("implementation").to_list()
-        )
-
-    def test_repository_snapshot_decodes_to_domain_records(self):
-        self.assertEqual(len(self.repositories), 251)
-        self.assertIsInstance(self.repositories[0], WidgetRepository)
-        self.assertEqual(repository_frame(self.repositories).schema["created"], pl.Date)
-
-    def test_binary_total_counts_ports_as_anywidget(self):
-        totals = {
-            row["implementation"]: row["count"]
-            for row in implementation_totals(self.classified).to_dicts()
-        }
-        self.assertEqual(totals, {"anywidget": 322, "without anywidget": 292})
+def test_snapshot_decodes_to_domain_records():
+    assert len(PACKAGES) == 628
+    assert isinstance(PACKAGES[0], WidgetPackage)
+    assert all(
+        isinstance(signal, ImplementationSignal)
+        for package in PACKAGES
+        for signal in package.current_implementation_signals
+    )
 
 
-if __name__ == "__main__":
-    unittest.main()
+def test_unclassified_current_releases_are_excluded():
+    assert CLASSIFIED.height == 614
+    assert "unclassified" not in CLASSIFIED.get_column("implementation").to_list()
+
+
+def test_repository_snapshot_decodes_to_domain_records():
+    assert len(REPOSITORIES) == 327
+    assert isinstance(REPOSITORIES[0], WidgetRepository)
+    frame = repository_frame(REPOSITORIES)
+    assert frame.height == 251
+    assert frame.schema["created"] == pl.Date
+
+
+def test_binary_total_counts_ports_as_anywidget():
+    totals = {
+        row["implementation"]: row["count"]
+        for row in implementation_totals(CLASSIFIED).to_dicts()
+    }
+    assert totals == {"anywidget": 322, "without anywidget": 292}
