@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-09-29T17:41:23.172145+00:00",
+  "curation_cutoff": "2024-11-24",
+  "cron_cutoff": "2025-01-24",
+  "legacy_rows_preserved": 327,
+  "legacy_unique_canonical_repositories": 323,
+  "legacy_rows_with_package_links": 299,
+  "package_candidates": 2554,
+  "pypi_metadata_found": 2521,
+  "source_supported_widget_candidates": 628,
+  "source_supported_candidates_outside_legacy": 347,
+  "outside_legacy_first_published_since_curation": 198,
+  "outside_legacy_first_published_since_cron": 185,
+  "widget_evidence_in_first_extant_release": 518,
+  "packages_with_anywidget_source": 325,
+  "traditional_then_anywidget_candidates": 27,
+  "assistant_reviewed_packages": 21,
+  "assistant_reviewed_new_packages": 15,
+  "assistant_reviewed_component_transitions": 6,
+  "latest_artifact_statuses": {
+    "ok": 1647,
+    "name_only_without_widget_metadata_signal": 836,
+    "no_supported_artifact_under_16MiB": 71
+  },
+  "github_search_coverage": [
+    {
+      "source": "github_code_search",
+      "query": "anywidget filename:pyproject.toml",
+      "reported_count": 1046,
+      "returned_count": 1000,
+      "incomplete_results": false,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "source": "github_code_search",
+      "query": "anywidget filename:setup.py",
+      "reported_count": 36,
+      "returned_count": 36,
+      "incomplete_results": false,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "source": "github_code_search",
+      "query": "AnyWidget language:python filename:__init__.py",
+      "reported_count": 2400,
+      "returned_count": 1000,
+      "incomplete_results": false,
+      "truncated": true,
+      "error": null
+    },
+    {
+      "source": "github_code_search",
+      "query": "DOMWidgetModel language:typescript filename:widget.ts",
+      "reported_count": 159,
+      "returned_count": 163,
+      "incomplete_results": false,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "source": "github_code_search",
+      "query": "DOMWidgetModel language:javascript filename:widget.js",
+      "reported_count": 57,
+      "returned_count": 57,
+      "incomplete_results": false,
+      "truncated": false,
+      "error": null
+    },
+    {
+      "source": "github_code_search",
+      "query": "DOMWidget language:python filename:widget.py",
+      "reported_count": 3232,
+      "returned_count": 1000,
+      "incomplete_results": false,
+      "truncated": true,
+      "error": null
+    }
+  ],
+  "sampled_reverse_dependency_responses": 3,
+  "history_packages": 724,
+  "release_metadata_observations": 9500,
+  "historical_artifact_observations": 3108,
+  "cohorts": [
+    {
+      "year": "2015",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 4
+    },
+    {
+      "year": "2016",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 6
+    },
+    {
+      "year": "2017",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 22
+    },
+    {
+      "year": "2018",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 31
+    },
+    {
+      "year": "2019",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 37
+    },
+    {
+      "year": "2020",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 43
+    },
+    {
+      "year": "2021",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 55
+    },
+    {
+      "year": "2022",
+      "implementation_in_first_extant_release": "anywidget",
+      "packages": 1
+    },
+    {
+      "year": "2022",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 42
+    },
+    {
+      "year": "2023",
+      "implementation_in_first_extant_release": "anywidget",
+      "packages": 17
+    },
+    {
+      "year": "2023",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 31
+    },
+    {
+      "year": "2024",
+      "implementation_in_first_extant_release": "anywidget",
+      "packages": 49
+    },
+    {
+      "year": "2024",
+      "implementation_in_first_extant_release": "both",
+      "packages": 1
+    },
+    {
+      "year": "2024",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 11
+    },
+    {
+      "year": "2025",
+      "implementation_in_first_extant_release": "anywidget",
+      "packages": 51
+    },
+    {
+      "year": "2025",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 6
+    },
+    {
+      "year": "2026",
+      "implementation_in_first_extant_release": "anywidget",
+      "packages": 107
+    },
+    {
+      "year": "2026",
+      "implementation_in_first_extant_release": "traditional",
+      "packages": 4
+    }
+  ]
+}

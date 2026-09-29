@@ -1,0 +1,63 @@
+{
+  "started_at": "2026-09-29T16:48:19.848828+00:00",
+  "finished_at": "2026-09-29T16:48:22.404034+00:00",
+  "new_requests": 33,
+  "errors": [
+    {
+      "url": "https://pypi.org/pypi/smc-pyutil/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/explainprompt/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/smc-sagews/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/bio-mate/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/ja-py/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/carbonplan-maps/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/marimo-docs/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/rerun-workspace/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/ibis-widget/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/rerun-pixi-env/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/rerun-dev-fixup/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/cccorelib/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/diff-gaussian-rasterization/json",
+      "status": 404
+    },
+    {
+      "url": "https://pypi.org/pypi/cloudcompare-demo-plugin/json",
+      "status": 404
+    }
+  ]
+}
