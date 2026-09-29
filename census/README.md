@@ -10,6 +10,6 @@ Repository aliases, monorepos, demos, forks, and apparent migrations require rev
 
 ## Going forward
 
-A refresh begins in a dated local directory that remains ignored by git. New and changed records are reviewed against the accepted snapshot, with particular attention to classifications, repository identity, evidence versions, artifact URLs, and review notes. Once accepted, the package and repository assets are replaced.
+The intended cadence is one reviewed refresh each quarter, with an additional refresh before publishing updated analysis. A refresh begins in a dated local directory that remains ignored by git. New and changed records are reviewed against the accepted snapshot, with particular attention to classifications, repository identity, evidence versions, artifact URLs, and review notes. Once accepted, the package and repository assets are replaced.
 
 Running `uv run python -m census` validates both typed snapshots and regenerates `assets/repos-complete.json` in the schema consumed by the existing Observable notebook. The resulting data diff is the review surface. Run `uv run --group test pytest` and `uv run marimo check widget_census.py` before committing it.
