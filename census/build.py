@@ -4,7 +4,11 @@ import collections
 import csv
 import json
 
-from collect import LEGACY_CUTOFF, OUT, ROOT, now, read_json, write_json
+import msgspec
+
+from census.analysis import build_repositories, classify_widgets, package_frame
+from census.collect import LEGACY_CUTOFF, OUT, ROOT, now, read_json, write_json
+from census.model import WidgetPackage
 from packaging.version import InvalidVersion, Version
 
 CRON_CUTOFF = "2025-01-24"
@@ -57,6 +61,16 @@ def observable_export(rows):
         + "\n]\n"
     )
     (ROOT / "assets/widgets.json").write_text(text)
+
+
+def repository_export(rows):
+    packages = msgspec.convert(rows, type=list[WidgetPackage])
+    widgets = classify_widgets(package_frame(packages))
+    repositories = build_repositories(ROOT, widgets)
+    payload = (
+        b"[\n" + b",\n".join(map(msgspec.json.encode, repositories)) + b"\n]\n"
+    )
+    (ROOT / "assets/repositories.json").write_bytes(payload)
 
 
 def csv_file(name, rows, fields=None):
@@ -302,6 +316,7 @@ def main():
     csv_file("package-review.csv", rows)
     csv_file("widget-candidates.csv", widgets)
     observable_export(widgets)
+    repository_export([{key: row[key] for key in OBSERVABLE_FIELDS} for row in widgets])
     csv_file("new-candidates.csv", additions)
     csv_file("gap-events.csv", sorted(events, key=lambda e: e["date"]))
     csv_file("newly-published-in-gap.csv", gap)

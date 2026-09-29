@@ -9,7 +9,7 @@ from pathlib import Path
 import msgspec
 import polars as pl
 
-from census.model import RepositoryIdentity, WidgetPackage
+from census.model import RepositoryIdentity, WidgetPackage, WidgetRepository
 
 SNAPSHOT_DATE = date(2026, 9, 29)
 ANYWIDGET_LAUNCH = date(2023, 1, 18)
@@ -97,8 +97,8 @@ def implementation_totals(widgets: pl.DataFrame) -> pl.DataFrame:
     )
 
 
-def load_repositories(root: Path, widgets: pl.DataFrame) -> pl.DataFrame:
-    """Collapse package repository links to current canonical GitHub repos."""
+def build_repositories(root: Path, widgets: pl.DataFrame) -> list[WidgetRepository]:
+    """Collapse local collection evidence to canonical GitHub repositories."""
     path = root / "census/2026-09-29/repository-identities.json"
     decoder = msgspec.json.Decoder(dict[str, RepositoryIdentity])
     identities = decoder.decode(path.read_bytes())
@@ -131,7 +131,7 @@ def load_repositories(root: Path, widgets: pl.DataFrame) -> pl.DataFrame:
                 "anywidget" in widget["current_implementation_signals"]
             )
 
-    return (
+    frame = (
         pl.from_dicts(list(by_repo.values()))
         .with_columns(
             pl.col("stars").cast(pl.Int32),
@@ -143,4 +143,20 @@ def load_repositories(root: Path, widgets: pl.DataFrame) -> pl.DataFrame:
         )
         .drop("has_anywidget")
         .sort("stars", descending=True)
+    )
+    return msgspec.convert(frame.to_dicts(), type=list[WidgetRepository])
+
+
+def load_widget_repositories(root: Path) -> list[WidgetRepository]:
+    """Decode and validate the committed repository-level snapshot."""
+    decoder = msgspec.json.Decoder(list[WidgetRepository])
+    return decoder.decode((root / "assets/repositories.json").read_bytes())
+
+
+def repository_frame(repositories: Sequence[WidgetRepository]) -> pl.DataFrame:
+    return pl.from_dicts(
+        [msgspec.to_builtins(repo) for repo in repositories]
+    ).with_columns(
+        pl.col("created").str.to_date(),
+        pl.col("last_push").str.to_date(),
     )

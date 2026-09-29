@@ -8,11 +8,5 @@ census/*/packages.json
 census/*/inputs/pypi-simple.json.gz
 census/*/.matplotlib/
 
-# Generated collection and inspection intermediates remain available locally.
-census/*/artifact-evidence/
-census/*/history/
-census/*/discovery.json
-census/*/latest-artifacts.json
-census/*/package-review.json
-census/*/package-review.csv
-census/*/review.html
+# Dated collection evidence remains available locally.
+census/20*/
