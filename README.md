@@ -1,69 +1,28 @@
-# anywidget-usage
+# anywidget usage
 
-Tracking Jupyter Widgets in the wild (and their usage of anywidget)
+An evidence-backed census of custom Jupyter widget packages and their adoption of anywidget.
 
-> [!IMPORTANT]
-> Find an issue or missing repo? **Please open an issue or PR**! Our process for
-> tracking widgets is semi-automated (see below) and may miss some repositories.
+The current snapshot contains 628 package candidates collected through September 29, 2026. Published package artifacts are inspected statically; candidate packages are never installed or executed. See [CONTEXT.md](./CONTEXT.md) for the domain language and [census/README.md](./census/README.md) for collection details and limitations.
 
-## Overview
-
-The repo is broken into two main parts:
-
-- A daily cron job that searches github for anywidget/ipywidget projects and
-  updates an [issue](https://github.com/manzt/anywidget-stats/issues/4) with
-  repos that need classification.
-- A [dataset](./assets/repos.json) with classified repos.
-
-A repo may be added manually to `repos.json`, or via the CLI (requires
-`GITHUB_TOKEN`):
+## Explore the snapshot
 
 ```sh
-$ deno task add <username/repo>
+uvx marimo edit --sandbox widget_census.py
 ```
 
-Another daily cron job extends `repos.json` with the latest commit / stars and
-publishes the result to GitHub Pages, visualized on
-[Observable](https://observablehq.com/d/b6e391914ebea31d).
+The notebook decodes [assets/widgets.json](./assets/widgets.json) into typed `msgspec.Struct` records and uses the reusable transforms in [census/analysis.py](./census/analysis.py). It does not run network collection when opened.
 
-## Methodology
+## Rebuild derived outputs
 
-Our analysis of widget packages employs a semi-automated process combining daily
-automated searches with manual verification to maintain an accurate
-representation of the widget ecosystem.
+```sh
+uv venv --python 3.12
+uv pip install --python .venv/bin/python -r census/requirements.txt
+.venv/bin/python census/build.py
+.venv/bin/python -m unittest discover -s census -p 'test_*.py'
+```
 
-### Process
+`census/build.py` rebuilds the compact snapshot and review outputs from collected evidence already on disk. A full refresh has separate discovery, metadata, artifact-inspection, and history stages documented in [census/README.md](./census/README.md), because it performs many network requests and should be reviewed as a dated snapshot.
 
-- **Daily Automated Search**: A daily
-  [GitHub Actions workflow](./.github/workflows/update.yml) runs a script
-  (`search.ts`) that performs two separate code searches: one for
-  `DOMWidgetModel` (for ipywidgets) and another for `anywidget.AnyWidget` (for
-  anywidget). The action updates an
-  [issue](https://github.com/manzt/anywidget-stats/issues/4) with unclassified
-  repositories that need manual verification.
+## Legacy collector
 
-- **Manual Verification**: A maintainer (Trevor) reviews new search results,
-  inspects relevant files. If the discovered repository is a widget project that
-  is published to PyPI, the maintainer adds the repository to our dataset with
-  `deno task add <repo>`.
-
-- **Dataset Maintenance**: Verified repositories are added to our
-  [dataset](./assets/repos.json) and respective
-  [ignore lists](./assets/exclude_repos_anywidget.txt) to prevent
-  reclassification and triage by the automated search.
-
-### Limitations
-
-While our process aims to be comprehensive, it has several limitations. The
-search may not capture every relevant repository due to GitHub API indexing
-constraints, and there's potential bias towards more recent or actively
-maintained projects.
-
-The manual verification step, while helping to ensure accuracy, introduces a
-subjective element to the process. As the author of **anywidget**, I may have
-increased awareness of anywidget projects shared in our community, which could
-introduce some bias in the discovery of new projects.
-
-**We encourage the community to help improve our dataset** by opening issues for
-missing widget projects, submitting pull requests with additions or corrections,
-and suggesting improvements to our search methodology.
+The Deno scripts and [assets/repos.json](./assets/repos.json) are the preserved repository-level workflow that produced the original Observable notebook. Its schedules are disabled; the old repository search can only be started manually. The Python census uses that inventory as one discovery and reconciliation input, so it remains available for provenance. New collection and analysis work should use the Python pipeline; repository counts from the legacy inventory are not directly comparable to package counts in the current census.

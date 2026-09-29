@@ -1,9 +1,7 @@
-name: Update repos
+name: Legacy repo search
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
 
 jobs:
   update_issue:
