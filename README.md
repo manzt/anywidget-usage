@@ -14,14 +14,14 @@ The notebook decodes [assets/widgets.json](./assets/widgets.json) and [assets/re
 
 The original Observable notebook continues to load [repos-complete.json](https://manzt.github.io/anywidget-usage/repos-complete.json). That 326-row payload is committed under `assets/` and deployed unchanged as a compatibility endpoint; rebuilding the Python census does not rewrite it.
 
-## Rebuild derived outputs
+## Validate the snapshot
 
 ```sh
-uv run python -m census.build
 uv run python -m unittest discover -s census -p 'test_*.py'
+uv run marimo check widget_census.py
 ```
 
-`census/build.py` rebuilds the compact snapshot and review outputs from collected evidence already on disk. A full refresh has separate discovery, metadata, artifact-inspection, and history stages documented in [census/README.md](./census/README.md), because it performs many network requests and should be reviewed as a dated snapshot.
+The repository records the latest accepted state. [census/README.md](./census/README.md) documents how that state was collected and how its dates should be interpreted.
 
 ## Legacy inventory
 
